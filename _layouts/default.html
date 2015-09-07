@@ -18,15 +18,13 @@
     <section>
 		<h2>{{page.title}}</h2>
         
-        {{ page.walt }}
+        <ul>
+        {% for walt in page.walt %}
+            <li>{{ walt }}<li>
+        {% endfor %}
+        </ul>
         
 		{{ content }}
-        <hr>
-        <div>{{ test_section }}</div>
-        
-        <section>
-        {% include section1.html %}
-        </section>
     
     </section>
 </body>
