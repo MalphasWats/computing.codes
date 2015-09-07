@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lessons &raquo; subDimension</title>
+	<link rel="stylesheet" href="{{site.baseurl}}/style/style.css" title="Style" type="text/css" charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <h1>lessons</h1>
+		
+		<nav>
+		<ul><li><a href="{{site.baseurl}}/">home</a></li><li><a href="#">about</a></li></ul>
+		</nav>
+		
+		
+    </header>
+    <section>
+		<h2>{{page.title}}</h2>
+        
+        {{page.walt | markdownify}}
+        
+        <h2>{{wilf_1_levels}}<h2>
+        
+        {{wilf_1_bullets | markdownify}}
+        
+		{{ content }}
+    
+    </section>
+</body>
+</html>

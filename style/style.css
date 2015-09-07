@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Anonymous';
+  src: url('assets/fonts/Anonymous_Pro-webfont.eot?') format('eot'), url('assets/fonts/Anonymous_Pro-webfont.woff') format('woff'), url('assets/fonts/Anonymous_Pro-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Anonymous';
+  src: url('assets/fonts/Anonymous_Pro_B-webfont.eot?') format('eot'), url('assets/fonts/Anonymous_Pro_B-webfont.woff') format('woff'), url('assets/fonts/Anonymous_Pro_B-webfont.ttf') format('truetype');
+  font-weight:bold;
+}
+
+@font-face {
+  font-family: 'Anonymous';
+  src: url('assets/fonts/Anonymous_Pro_I-webfont.eot?') format('eot'), url('assets/fonts/Anonymous_Pro_I-webfont.woff') format('woff'), url('assets/fonts/Anonymous_Pro_I-webfont.ttf') format('truetype');
+  font-style:italic;
+}
+
+
+*
+{
+	margin: 0px; padding: 0px;
+	font-weight: normal;
+}
+
+strong, b {font-weight:bold;}
+
+body
+{
+	font-family: "Anonymous", Arial, sans-serif;
+
+	max-width: 800px;
+	margin: 0px auto;
+}
