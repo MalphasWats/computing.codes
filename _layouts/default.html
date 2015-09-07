@@ -24,6 +24,14 @@
         {% endfor %}
         </ul>
         
+        <h2>Level {{page.wilf_1_levels}}<h2>
+        
+        <ul>
+        {% for bullet in page.wilf_1_bullets %}
+            <li>{{ bullet }}</li>
+        {% endfor %}
+        </ul>
+        
 		{{ content }}
     
     </section>
