@@ -7,6 +7,11 @@ walt:
 - Identify and describe the functions of a CPU
 - Identify and describe how components communicate
 - Describe the Fetch/Execute cycle, in terms of hardware components
+keywords:
+- CPU
+- Arithmetic Logic Unit
+- Fetch
+- Execute
 wilf_1_levels: E - D
 wilf_1_bullets:
 - List the main components of a computer

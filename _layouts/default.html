@@ -6,34 +6,52 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <header>
-        <h1>lessons</h1>
-		
-		<nav>
-		<ul><li><a href="{{site.baseurl}}/">home</a></li><li><a href="#">about</a></li></ul>
-		</nav>
-		
-		
-    </header>
-    <section>
-		<h2>{{page.title}}</h2>
-        
+    <section id="walt">
+        <h1>We Are Learning Today</h1>
         <ul>
-        {% for walt in page.walt %}
+            {% for walt in page.walt %}
             <li>{{ walt }}</li>
-        {% endfor %}
+            {% endfor %}
         </ul>
         
-        <h2>Level {{page.wilf_1_levels}}<h2>
-        
+        {% if page.keywords %}
+        <h2>Key Words</h2>
+        <ul id="keywords">
+            {% for word in page.keywords %}
+            <li>{{ word }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}    
+    </section>
+    
+    <section id="wilf">
+        <h1>What I'm Looking For</h1>
+        <h2>{{page.wilf_1_levels}}</h2>
         <ul>
-        {% for bullet in page.wilf_1_bullets %}
-            <li>{{ bullet }}</li>
-        {% endfor %}
+            {% for wilf in page.wilf_1_bullets %}
+            <li>{{ wilf }}</li>
+            {% endfor %}
         </ul>
         
-		{{ content }}
+        <h2>{{page.wilf_2_levels}}</h2>
+        <ul>
+            {% for wilf in page.wilf_2_bullets %}
+            <li>{{ wilf }}</li>
+            {% endfor %}
+        </ul>
+        
+        <h2>{{page.wilf_3_levels}}</h2>
+        <ul>
+            {% for wilf in page.wilf_3_bullets %}
+            <li>{{ wilf }}</li>
+            {% endfor %}
+        </ul>
     
     </section>
+    
+    <section id="content">
+        {{ content }}
+    </section>
+        
 </body>
 </html>
