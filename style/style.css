@@ -116,3 +116,8 @@ ul#keywords li
     float:left;
     margin-right:5%;
 }
+
+section#content img
+{
+    max-width:100%;
+}
