@@ -121,3 +121,8 @@ section#content img
 {
     max-width:100%;
 }
+
+section#content p
+{
+    margin-top:2%;
+}
