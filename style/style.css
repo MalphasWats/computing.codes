@@ -90,11 +90,19 @@ section ul
 {
     list-style-position:inside;
     
-    margin-bottom:10%;
-    
     background-color:rgba(255, 255, 255, 0.5);
     padding:2%;
     padding:2%;
+}
+
+section#walt ul
+{
+    margin-bottom:4%;
+}
+
+section#wilf ul
+{
+    margin-bottom:10%;
 }
 
 ul#keywords
