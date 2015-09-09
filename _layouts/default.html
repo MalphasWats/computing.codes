@@ -10,7 +10,7 @@
         <h1>We Are Learning To:</h1>
         <ul>
             {% for walt in page.walt %}
-            <li>{{ walt }}</li>
+            <li>{{ walt | markdownify }}</li>
             {% endfor %}
         </ul>
         
