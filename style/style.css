@@ -122,7 +122,7 @@ section#content img
     max-width:100%;
 }
 
-section#content p
+section#content p, section#content ul
 {
     margin-top:1%;
 }
