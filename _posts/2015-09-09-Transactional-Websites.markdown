@@ -29,12 +29,9 @@ wilf_3_bullets:
 ---
 
 Choose a transactional website that you are familiar with, 
-one that sells a reasonable number of products 
-(avoid sites like ebay or amazon, they have too many services!). 
-*You will need to do this for more than one website*
+one that sells products (avoid sites like ebay or amazon). 
 
-Start this lesson focusing on the sections in the WILF here, but your report will
-need to include:
+Your report will need to include:
 
 * the purpose of the site and how successfully it meets this objective
 * how it is structured
