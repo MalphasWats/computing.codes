@@ -3,13 +3,9 @@ layout: default
 title: Transactional Websites
 tags: [Applied ICT, Transactional Websites]
 walt:
-- Differentiate different types of Transactional Website
+- Differentiate types of Transactional Website
 - Describe the features of a Transactional Website
-- Consider what information is collected by a transactional website
-keywords:
-- Transactional Website
-- Overt
-- Covert
+- Consider what information is collected by a TW
 wilf_1_levels: E - D
 wilf_1_bullets:
 - Identify a Transactional Website
