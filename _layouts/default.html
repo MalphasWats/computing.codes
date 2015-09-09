@@ -18,7 +18,7 @@
         <h2>Key Words</h2>
         <ul id="keywords">
             {% for word in page.keywords %}
-            <li>{{ word }}</li>
+            <li>{{ word | markdownify }}</li>
             {% endfor %}
         </ul>
         {% endif %}    
@@ -29,21 +29,21 @@
         <h2>{{page.wilf_1_levels}}</h2>
         <ul>
             {% for wilf in page.wilf_1_bullets %}
-            <li>{{ wilf }}</li>
+            <li>{{ wilf | markdownify }}</li>
             {% endfor %}
         </ul>
         
         <h2>{{page.wilf_2_levels}}</h2>
         <ul>
             {% for wilf in page.wilf_2_bullets %}
-            <li>{{ wilf }}</li>
+            <li>{{ wilf | markdownify }}</li>
             {% endfor %}
         </ul>
         
         <h2>{{page.wilf_3_levels}}</h2>
         <ul>
             {% for wilf in page.wilf_3_bullets %}
-            <li>{{ wilf }}</li>
+            <li>{{ wilf | markdownify }}</li>
             {% endfor %}
         </ul>
     
