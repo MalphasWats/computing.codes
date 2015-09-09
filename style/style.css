@@ -86,7 +86,7 @@ section#wilf h2
     padding:1%;
 }
 
-section ul
+section#walt ul, section#wilf ul
 {
     list-style-position:inside;
     
@@ -125,4 +125,9 @@ section#content img
 section#content p
 {
     margin-top:1%;
+}
+
+section#content ul
+{
+    list-style-position:inside;
 }
