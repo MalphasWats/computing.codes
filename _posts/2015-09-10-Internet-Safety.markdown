@@ -29,6 +29,7 @@ wilf_3_bullets:
 ## Key Ideas
 
 You can choose some of the following ideas to create a poster with:
+
 * Choosing a good password
 * Information you should never share online
 * How to get help with online issues
