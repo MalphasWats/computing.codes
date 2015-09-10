@@ -23,15 +23,16 @@ wilf_3_bullets:
 
 ## First Normal Form (1NF)
 
+* Data has a **primary key** / unique identifier
 * Data contains only **Atomic Values**
 * Data has **No Repeating Groups**
 
 ## Second Normal Form (2NF)
 
-* Data is in 1NF
+* Data is in **1NF**
 * All non-key attributes are fully functional dependent on the primary key
 
 ## Third Normal Form (3NF)
 
-* Data is in 2NF
+* Data is in **2NF**
 * There are no non-key attributes that depend on another non-key attribute
