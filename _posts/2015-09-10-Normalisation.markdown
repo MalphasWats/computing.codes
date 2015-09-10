@@ -15,7 +15,7 @@ wilf_1_bullets:
 - ...
 wilf_2_levels: C
 wilf_2_bullets:
-- Take a dataset and convert it into first, second and third normal form
+- Produce a guide that explains how to take a simple data set and convert it through to 3rd normal form.
 wilf_3_levels: B - A
 wilf_3_bullets:
 - ...
