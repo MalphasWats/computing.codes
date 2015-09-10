@@ -126,7 +126,7 @@ section#content p:first-child img
 
 section#content p, section#content ul
 {
-    margin-top:1%;
+    margin-bottom:1%;
 }
 
 section#content ul
