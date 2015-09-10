@@ -34,4 +34,4 @@ You can choose some of the following ideas to create a poster with:
 * How to get help with online issues
 * Online threats (viruses, phishing, etc)
 
-[![Poster Designs](/resources/images/poster-design-small.png)](/resources/images/poster-design.png)
+[![Poster Designs](/resources/images/poster-designs-small.png)](/resources/images/poster-designs.png)
