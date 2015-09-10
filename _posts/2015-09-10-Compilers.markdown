@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Normalisation
+title: Compilers
 tags: [KS4, GCSE, Compilers, Low Level Language, High Level Language, Machine Code]
 walt:
 - Describe the function of a Compiler
