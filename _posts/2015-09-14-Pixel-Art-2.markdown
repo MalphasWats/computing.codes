@@ -1,0 +1,38 @@
+---
+layout: default
+title: Pixel Art
+tags: [Pixel Art]
+walt:
+- Create a set of Pixel Art Characters
+- Incorporate shading into a pixel art object
+- Managing a project
+keywords:
+- Pixel Art
+- Shading
+- Protagonist
+- Antagonist
+wilf_1_levels: E - D
+wilf_1_bullets:
+- Create a simple protagonist character
+- Create a simple antagonist character
+wilf_2_levels: C
+wilf_2_bullets:
+- Create a protagonist character with walk animation
+- use shading to add depth to the character
+- Create an antagonist appropriate for your protagonist
+wilf_3_levels: B - A
+wilf_3_bullets:
+- Create a fluidly animated protagonist character
+- incorporate shading to add depth and detail
+- Create a thoughtfully animated antagonist
+---
+
+# Document Size
+
+24px high x 96px wide
+
+** Don't forget to show the grid **:
+View Menu > Grid > Show Grid
+View Menu > Grid > Edit Grid, set grid to 24 x 24
+
+#[http://longfield.subdimension.co.uk](http://longfield.subdimension.co.uk)
