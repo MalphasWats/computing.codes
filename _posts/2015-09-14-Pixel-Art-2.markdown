@@ -35,4 +35,11 @@ wilf_3_bullets:
 View Menu > Grid > Show Grid
 View Menu > Grid > Edit Grid, set grid to 24 x 24
 
+##You will Create:
+
+* Protagonist with Walk Anim.
+* Antagonist with Idle Anim.
+* 4 World Tiles & Map
+* World Background
+
 #[http://longfield.subdimension.co.uk](http://longfield.subdimension.co.uk)
