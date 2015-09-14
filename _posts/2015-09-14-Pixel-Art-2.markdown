@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Pixel Art
+title: Pixel Art 2
 tags: [Pixel Art]
 walt:
 - Create a set of Pixel Art Characters
