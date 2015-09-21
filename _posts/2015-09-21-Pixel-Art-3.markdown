@@ -1,0 +1,43 @@
+---
+layout: default
+title: Pixel Art 3
+tags: [Pixel Art]
+walt:
+- Create a set of Pixel Art *Assets*
+- Incorporate shading into a pixel art object
+- Managing a project
+keywords:
+- Pixel Art
+- Shading
+- Assets
+wilf_1_levels: E - D
+wilf_1_bullets:
+- Create a set of platform blocks
+- Create a simple level layout 480px x 240px
+wilf_2_levels: C
+wilf_2_bullets:
+- Create a set of **4** platform blocks
+- Use shading and other techniques to add depth to blocks
+- Create a level layout 480px x 240px, using a range of blocks
+wilf_3_levels: B - A
+wilf_3_bullets:
+- Create a set of **4** platform blocks
+- Use shading and other techniques to add depth to blocks
+- Create a challenging level layout 480px x 240px, using a range of blocks
+---
+
+# Document Size
+
+## Blocks
+
+24px high x 96px wide
+
+## Level Layout
+
+240px high x 480px wide
+ 
+** Don't forget to show the grid **:
+View Menu > Grid > Show Grid
+View Menu > Grid > Edit Grid, set grid to 24 x 24
+
+#[http://longfield.subdimension.co.uk](http://longfield.subdimension.co.uk)
