@@ -28,4 +28,6 @@ wilf_3_bullets:
 - Include 2 or more other types of information.
 ---
 
+[Solar System Scale](https://player.vimeo.com/video/139407849?title=0&byline=0&portrait=0)
+
 ![Solar System Infographic](/resources/images/solar-system-infographic-01.png)
