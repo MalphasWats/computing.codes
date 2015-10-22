@@ -26,3 +26,10 @@ wilf_3_bullets:
 ---
 
 [Database Help Sheet](/resources/Quiz_Database_Instructions.pdf)
+
+## When you're finished
+
+You need to create a database for your survey - use the skills you have learnt here to build a database 
+that will contain the questions that you have asked in your survey.
+
+Make sure you think about the data-types of your answers: text, yes/no, currency etc.
