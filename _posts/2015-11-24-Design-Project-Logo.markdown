@@ -35,4 +35,4 @@ wilf_3_bullets:
 * zorbashi
 * marine
 
-![Bubbles](/resources/images/Bubbles.png)
+![Bubbles](/resources/images/bubbles.png)
