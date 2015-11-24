@@ -26,7 +26,9 @@ wilf_3_bullets:
 - Edit an image to use as a background for your logo
 ---
 
-# Using one of the words below, create a concept for a new computer game:
+# Concept
+
+Using one of the words below, create a concept for a new computer game:
 
 * picnic
 * urban
