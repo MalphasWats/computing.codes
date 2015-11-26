@@ -1,0 +1,30 @@
+---
+layout: default
+title: Cakes Spreadsheet 2
+tags: [Spreadsheets]
+walt:
+- Identify the features of a spread sheet
+- Enter simple formulae to perform calculations
+- Reference multiple sheets in a spreadsheet
+- Use Absolute cell reference
+keywords:
+- Cell
+- Row
+- Column
+- Formula
+- Data
+- Reference
+wilf_1_levels: E - D
+wilf_1_bullets:
+- Complete tasks 4 & 5 using simple formulae
+- Use some simple formatting features
+wilf_2_levels: C
+wilf_2_bullets:
+- Complete tasks 4 - 6
+- Use formatting features to make parts of your spreadsheet easier to read
+wilf_3_levels: B - A
+wilf_3_bullets:
+- Complete tasks 4 - 7
+- Use vlookup() to include the cost of special ingredients
+- Format your spreadsheet to make it easier to read
+---
