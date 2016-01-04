@@ -7,7 +7,7 @@
 </head>
 <body>
     <section id="walt">
-        <h1>We Are Learning To:</h1>
+        <h1>Learning Objective:</h1>
         <ul>
             {% for walt in page.walt %}
             <li>{{ walt | markdownify }}</li>
@@ -25,7 +25,7 @@
     </section>
     
     <section id="wilf">
-        <h1>What I'm Looking For:</h1>
+        <h1>Success Criteria:</h1>
         <h2>{{page.wilf_1_levels}}</h2>
         <ul>
             {% for wilf in page.wilf_1_bullets %}
