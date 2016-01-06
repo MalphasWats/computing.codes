@@ -18,11 +18,13 @@ wilf_2_bullets:
 - Find given client id in file efficiently
 - Summarise excercise times (total)
 - Print details to screen with some attention to formatting
+- Comments included in code
 wilf_3_levels: B - A
 wilf_3_bullets:
 - Find given client id in file efficiently
 - Summarise excercise times (total)
 - Print details to screen with formatted as per specification
+- Comments fully explain what code is doing
 ---
 
 ![Code Snippet](/resources/images/code_snippet_1.png)
