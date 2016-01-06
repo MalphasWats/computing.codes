@@ -14,7 +14,7 @@ wilf_1_bullets:
 - Show some awareness of audience & purpose
 wilf_2_levels: 10 - 13 marks (section d)
 wilf_2_bullets:
-- Demonstrate *sound* multimedia desing principles
+- Demonstrate *sound* multimedia design principles
 - Show awareness of audience & purpose
 wilf_3_levels: 14 - 17 marks (section d)
 wilf_3_bullets:
