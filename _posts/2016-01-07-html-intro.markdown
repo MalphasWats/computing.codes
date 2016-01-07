@@ -4,9 +4,7 @@ title: HTML Recipe
 tags: [html, year 9]
 walt:
 - Identify & Apply HTML tags
-- &lt;h1&gt;  &lt;/h1&gt;
-- &lt;h2&gt;  &lt;/h2&gt;
-- &lt;p&gt;  &lt;/p&gt;
+- h1, h2, p, ul, li
 keywords:
 - heading
 - subheading
