@@ -1,0 +1,23 @@
+---
+layout: default
+title: HTML Recipe - CSS
+tags: [html, year 9]
+walt:
+- Identify & Apply CSS Rules
+- Identify Selectors: h1, h2, p, ul, li
+- Apply rules: color, background-color, font-family
+keywords:
+- selector
+- rule
+- style sheet
+wilf_1_levels: E - D
+wilf_1_bullets:
+- Simple rules applied in a *style* section
+wilf_2_levels: C
+wilf_2_bullets:
+- Sections coloured with some thought to design, using CSS Rules
+wilf_3_levels: B - A
+wilf_3_bullets:
+- Design applied to the page using CSS
+- Some *new* CSS rules found independently
+---
