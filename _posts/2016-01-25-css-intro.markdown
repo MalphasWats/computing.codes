@@ -4,8 +4,8 @@ title: HTML Recipe - CSS
 tags: [html, year 9]
 walt:
 - Identify & Apply CSS Rules
-- Identify Selectors: h1, h2, p, ul, li
-- Apply rules: color, background-color, font-family
+- Identify Selectors- h1, h2, p, ul, li
+- Apply rules- color, background-color, font-family
 keywords:
 - selector
 - rule
