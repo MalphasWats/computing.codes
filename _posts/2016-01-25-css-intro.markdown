@@ -21,3 +21,5 @@ wilf_3_bullets:
 - Design applied to the page using CSS
 - Some *new* CSS rules found independently
 ---
+
+# [http://color.adobe.com](http://color.adobe.com)
