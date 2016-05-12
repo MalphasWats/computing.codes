@@ -97,12 +97,12 @@ section
 
 section p
 {
-	margin: 1em 0em 1.5em 0em;
+	margin: 1em 0em 1.4em 0em;
 }
 
 section ul
 {
-	margin-left: 1.2em;
+	margin: 1em 0em 1.4em 0em;
 }
 
 section img
@@ -120,7 +120,7 @@ section iframe
 
 section h2
 {
-	margin:0.4em 0 0.2em 0;
+	margin:0.2em 0;
 }
 
 @media (min-width: 700px)
