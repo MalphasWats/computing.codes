@@ -1,0 +1,189 @@
+@font-face {
+  font-family: 'Anonymous';
+  src: url('assets/fonts/Anonymous_Pro-webfont.eot?') format('eot'), url('assets/fonts/Anonymous_Pro-webfont.woff') format('woff'), url('assets/fonts/Anonymous_Pro-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Anonymous';
+  src: url('assets/fonts/Anonymous_Pro_B-webfont.eot?') format('eot'), url('assets/fonts/Anonymous_Pro_B-webfont.woff') format('woff'), url('assets/fonts/Anonymous_Pro_B-webfont.ttf') format('truetype');
+  font-weight:bold;
+}
+
+@font-face {
+  font-family: 'Anonymous';
+  src: url('assets/fonts/Anonymous_Pro_I-webfont.eot?') format('eot'), url('assets/fonts/Anonymous_Pro_I-webfont.woff') format('woff'), url('assets/fonts/Anonymous_Pro_I-webfont.ttf') format('truetype');
+  font-style:italic;
+}
+
+
+*
+{
+	margin: 0px; padding: 0px;
+	font-weight: normal;
+}
+
+strong, b {font-weight:bold;}
+
+body
+{
+	font-family: "Anonymous", Arial, sans-serif;
+
+	max-width: 800px;
+	margin: 0px auto;
+}
+
+h1, h1 a, h2, h3
+{
+	color:#829f14;
+}
+
+a
+{
+	color: #7b797a;
+}
+
+header
+{
+	margin-bottom: 0.8em;
+	margin-top:1em;
+}
+
+header h1
+{
+	font-size: 200%;
+	line-height: 100%;
+	margin-bottom:0.2em;
+}
+
+header p
+{
+	text-align: right;
+	color: #7b797a;
+	font-size: 90%;
+}
+
+header>a
+{
+	float:right;
+	text-decoration: none;
+	color:#ccc;
+	font-size:80%;
+}
+
+header nav ul
+{
+	overflow:auto;
+	list-style-type:none;
+}
+
+header nav ul li
+{
+	float:left;
+	padding:0px 8px;
+}
+
+header nav ul li a
+{
+	text-decoration: none;
+}
+
+section
+{
+	margin-top:3em;
+}
+
+section p
+{
+	margin: 1em 0em 1.5em 0em;
+}
+
+section img
+{
+	width:100%;
+}
+
+section h2
+{
+	margin-bottom:0.4em;
+}
+
+section ul
+{
+    list-style-type: none;
+    overflow: auto;
+}
+
+section ul li
+{
+    float:left;
+	display:block;
+}
+
+@media (min-width: 700px)
+{
+	section ul li
+	{
+		width:20%;
+    }
+	
+	section ul#albums li
+	{
+		margin:1.2em;
+	}
+}
+
+@media (max-width: 699px)
+		and
+	   (min-width: 415px)
+{
+	section ul li
+	{
+		width:25%;
+    }
+	
+	section ul#albums li
+	{
+		margin:0.6em;
+		/*padding:0.3em;*/
+	}
+}
+
+@media (max-width: 414px)
+{
+	section ul li
+	{
+		width:33.333%;
+    }
+	
+	section ul#albums li
+	{
+		margin:0.3em;
+		/*padding:0.2em;*/
+	}
+}
+
+section ul li img
+{
+	display:block;
+	width:100%;
+}
+
+section ul#albums
+{
+	text-align:center;
+}
+
+section ul#albums li
+{
+	display: inline-block;
+	float:none;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	
+	padding:0.6em;
+}
+
+section ul#albums li a
+{
+	text-decoration:none;
+}
