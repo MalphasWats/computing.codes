@@ -1,9 +1,7 @@
 ---
 layout: simple
-title: Graphic Design
+title: Fireworks - Graphic Design
 ---
-
-# Simple Fireworks Skills
 
 ## Learning Objective
 

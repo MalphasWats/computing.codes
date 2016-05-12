@@ -30,6 +30,9 @@ body
 
 	max-width: 800px;
 	margin: 0px auto;
+    
+    font-size:1.4em;
+    line-height:120%;
 }
 
 h1, h1 a, h2, h3
@@ -107,59 +110,21 @@ section h2
 	margin-bottom:0.4em;
 }
 
-section ul
-{
-    list-style-type: none;
-    overflow: auto;
-}
-
-section ul li
-{
-    float:left;
-	display:block;
-}
-
 @media (min-width: 700px)
 {
-	section ul li
-	{
-		width:20%;
-    }
 	
-	section ul#albums li
-	{
-		margin:1.2em;
-	}
 }
 
 @media (max-width: 699px)
 		and
 	   (min-width: 415px)
 {
-	section ul li
-	{
-		width:25%;
-    }
 	
-	section ul#albums li
-	{
-		margin:0.6em;
-		/*padding:0.3em;*/
-	}
 }
 
 @media (max-width: 414px)
 {
-	section ul li
-	{
-		width:33.333%;
-    }
 	
-	section ul#albums li
-	{
-		margin:0.3em;
-		/*padding:0.2em;*/
-	}
 }
 
 section ul li img
