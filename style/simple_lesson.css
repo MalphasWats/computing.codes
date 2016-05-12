@@ -115,7 +115,7 @@ section img
 section iframe
 {
     display: block;
-    margin:0 auto;
+    margin:0 auto 1em auto;
 }
 
 section h2
