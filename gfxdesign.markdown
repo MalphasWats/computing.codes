@@ -6,7 +6,7 @@ title: Fireworks - Graphic Design
 ## Learning Objective
 
 * Develop general *Fireworks* design skills
-* Using the 'Bézier' pen tool
+* Using the 'Bezier' pen tool
 * Applying colour gradients
 * Arranging objects in a scene
 
