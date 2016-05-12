@@ -100,14 +100,27 @@ section p
 	margin: 1em 0em 1.5em 0em;
 }
 
+section ul
+{
+	margin-left: 1.2em;
+}
+
 section img
 {
-	width:100%;
+	max-width:100%;
+    display:block;
+    margin: 0 auto;
+}
+
+section iframe
+{
+    display: block;
+    margin:0 auto;
 }
 
 section h2
 {
-	margin-bottom:0.4em;
+	margin:0.4em 0 0.2em 0;
 }
 
 @media (min-width: 700px)

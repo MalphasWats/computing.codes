@@ -30,12 +30,12 @@ You'll be following the steps in the videos below, but first, you need to copy a
 
 Now follow the video below. Feel free to pause and watch sections multiple times until you're confident what you need to do.
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/ZvaUr67KB00" frameborder="0" allowfullscreen></iframe>
+<iframe width="630" height="465" src="https://www.youtube.com/embed/ZvaUr67KB00" frameborder="0" allowfullscreen></iframe>
 
 ## Part 2
 
 Now that you've started to get the hang of things, the second video starts looking at some of the details.
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/BERTHTdkvWU" frameborder="0" allowfullscreen></iframe>
+<iframe width="630" height="465" src="https://www.youtube.com/embed/BERTHTdkvWU" frameborder="0" allowfullscreen></iframe>
 
 Now that you've got an idea of how basic shapes can be used to create complex objects it's your turn to have a go. Try creating some luxury huts for people to live in on the islands, or perhaps some ancient ruins. Maybe you could make a tour boat with little tourists on board taking photos of your island creations. *Use your imagination*.
