@@ -100,7 +100,7 @@ section p
 	margin: 1em 0em 1.4em 0em;
 }
 
-section ul
+section ul, section ol
 {
 	margin: 1em 0em 1.4em 1.2em;
 }
