@@ -61,3 +61,5 @@ id = canvas.create_rectangle(x1, y1, x2, y2, fill="colour", outline="colour")
 where `x1,y1` is the top-left corner and `x2,y2` is the bottom-right corner. Note you can also set the outline colour.
 
 If you pass an empty string `""` to either of the colour parameters, they are set transparent and you can use any colour specified as a hexadecimal number too, e.g. `#ff00ff`.
+
+In the [next part, we're going to display our egg.](part3.html)
