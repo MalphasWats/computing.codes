@@ -19,9 +19,9 @@ window = Tk()
 window.mainloop()
 ```
 
-That last line: `window.mainloop()` is what starts the interface. GUI based applications work differently to command line applications, they have what's called an Event Listener that sits listening for things like mouse clicks and keyboard presses. In Tkinter, those Listeners sit inside the mainloop() function. Once that is called, the program effectively 'hangs' at that point and only responds to events (with one exception we'll see later!).
+That last line: `window.mainloop()` is what starts the interface. GUI based applications work differently to command line applications, they have what's called an Event Listener that sits listening for things like mouse clicks and keyboard presses. In Tkinter, those Listeners sit inside the `mainloop()` function. Once that is called, the program effectively 'hangs' at that point and only responds to events (with one exception we'll see later!).
 
-**Always make sure that window.mainloop() is the last line in your program.**
+**Always make sure that `window.mainloop()` is the last line in your program.**
 
 If you run this program, you get an empty window! Nice!
 
@@ -39,7 +39,7 @@ Re-run it and check the window's titlebar.
 
 Ok, we have a window, but it is currently empty. We need to create a component that we can draw on. Most GUI modules/libraries provide a set of components like buttons, dropdown boxes, text boxes etc. They also usually include a canvas component for basic drawings. Let's use one.
 
-Make sure you add this code after the window has been created but before the mainloop() call:
+Make sure you add this code after the window has been created but before the `mainloop()` call:
 
 ```
 canvas = Canvas(window, width=200, height=220)
