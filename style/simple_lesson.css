@@ -105,6 +105,11 @@ section ul, section ol
 	margin: 1em 0em 1.4em 1.2em;
 }
 
+section ol
+{
+    margin-left: 2.2em;
+}
+
 section img
 {
 	max-width:100%;
