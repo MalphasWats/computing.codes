@@ -39,7 +39,7 @@ Notice that I've also expanded the layers section on the right. I did this by cl
 
 Layers are really handy for organising complex drawings. In the layers section, create 2 new layer folders by clicking the little folder with a plus (+) icon at the bottom. You can rename these layer folders by double clicking them. Name them Panel 1, Panel 2 and Panel 3. Next you need to drag the rectangle layers into the right folders. Use the tiny preview images to make sure you move the right ones. Finally click the empty boxes next to the eye icons for each of the Rectangle layers to lock them so we can't move them around by accident and make sure that the 'Panel 1' layer folder is selected like the picture above.
 
-![Import an Image(resources/07_ImportingAnImage.png)
+![Import an Image](resources/07_ImportingAnImage.png)
 
 We're going to start by importing a background image for our first panel. Choose 'Import' from the File menu.
 
