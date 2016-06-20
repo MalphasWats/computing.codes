@@ -85,7 +85,7 @@ Ideally, you should choose either **white** or **black** for the colour, dependi
 
 Once you have something you're happy with, you need to move it into the middle of the canvas. 
 
-Choose the `Black Arrow` selection tool. <img class="inline" src="resources/ 12_BlackArrow.png" alt="Black Arrow"> If you click and drag the letter you added to the canvas, you might notice that you get some guides popping up as you move it around:
+Choose the `Black Arrow` selection tool. <img class="inline" src="resources/12_BlackArrow.png" alt="Black Arrow"> If you click and drag the letter you added to the canvas, you might notice that you get some guides popping up as you move it around:
 
 ![Centre Guides](resources/13_CentreGuides.png)
 
