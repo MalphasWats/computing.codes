@@ -162,6 +162,10 @@ Notice we're also checking collision again. It doesn't matter right now, because
 
 Save it, run it, our wizard can now walk left and right! Careful you don't jump off the platform though - there aren't any blocks below for him to collide with, he'll never be able to jump again!
 
+If you got really stuck at any point along the way, here's the finished source to compare to:
+
+[![jumpy.py](resources/pyicon.gif)](resources/jumpy_complete.py)
+
 ## What next
 
 If you scroll right to the bottom of the source file, you'll see some lines that look like this:
