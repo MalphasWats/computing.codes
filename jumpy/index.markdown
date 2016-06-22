@@ -26,7 +26,8 @@ The code given sets up some basic features of a simple game framework. Look at t
 
 Close the window and look back at the source code. You should see 4 sections marked out in comments:
 
-```     ################
+```     
+        ################
         ## Activity 1 ##
         ################
 ```
