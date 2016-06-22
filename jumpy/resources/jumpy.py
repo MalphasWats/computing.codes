@@ -139,7 +139,7 @@ if __name__ == "__main__":
     
     scene.add_sprite(player)                    # Add the player sprite to the scene
     
-    scene.add_tile(1*32, 8*32)                  # Add some tiles to the schene to
+    scene.add_tile(1*32, 8*32)                  # Add some tiles to the scene to
     scene.add_tile(2*32, 8*32)                  # create a level. Tiles are 32px
     scene.add_tile(3*32, 8*32)                  # so 3*32, 8*32 puts it in the
                                                 # 3rd column, 8th row
