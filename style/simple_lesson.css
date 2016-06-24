@@ -154,29 +154,3 @@ section h2
 {
 	
 }
-
-section ul li img
-{
-	display:block;
-	width:100%;
-}
-
-section ul#albums
-{
-	text-align:center;
-}
-
-section ul#albums li
-{
-	display: inline-block;
-	float:none;
-	border: 1px solid #ccc;
-	border-radius: 5px;
-	
-	padding:0.6em;
-}
-
-section ul#albums li a
-{
-	text-decoration:none;
-}
