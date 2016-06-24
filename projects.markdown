@@ -11,6 +11,11 @@ title: Projects
 4. [Logo](/logo/index.html)
 
 
-## Programming
+## Programming - Scratch
+
+1. [Scratch Racing](/racing/index.html)
+
+
+## Programming - Python
 
 1. [Pythagotchi](/pythagotchi/index.html)
