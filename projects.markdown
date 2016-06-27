@@ -19,3 +19,4 @@ title: Projects
 ## Programming - Python
 
 1. [Pythagotchi](/pythagotchi/index.html)
+2. [Jumpy](/jumpy/index.html)
