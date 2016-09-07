@@ -10,11 +10,11 @@ keywords:
 - Algorithm
 - Variables
 - Flow Control
-wilf_1_levels: 4 - 5
+wilf_1_levels: 2 - 4
 wilf_1_bullets:
 - One Variable identified for a program
 - Describe a program in general terms
-wilf_2_levels: 6 - 7
+wilf_2_levels: 5 - 7
 wilf_2_bullets:
 - Two or more variables identified
 - Some awareness of data type shown
