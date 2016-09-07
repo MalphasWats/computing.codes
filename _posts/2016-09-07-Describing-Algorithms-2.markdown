@@ -7,7 +7,9 @@ walt:
 - Identify key elements of a program
 - Describe algorithms in a program
 keywords:
-- Algorithms
+- Algorithm
+- Variables
+- Flow Control
 wilf_1_levels: 4 - 5
 wilf_1_bullets:
 - One Variable identified for a program
