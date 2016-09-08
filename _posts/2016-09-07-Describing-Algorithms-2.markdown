@@ -25,4 +25,4 @@ wilf_3_bullets:
 - Program defined in terms of sub-programs & flow control structures.
 ---
 
-[tetris_tk.py](/lessons/resources/tetris_tk.py)
+[tetris_tk.py](/resources/tetris_tk.py)
