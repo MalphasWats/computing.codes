@@ -84,7 +84,8 @@ section nav a
 {
     display:block;
     width:100%;
-    padding:20%;
+    padding:6% 0;
+    margin:12px 0;
     text-align: center;
     color: white;
     text-decoration: none;
