@@ -138,6 +138,29 @@ section h2
 	margin:0.2em 0;
 }
 
+section table 
+{
+	border-collapse:collapse;
+}
+
+section th, section td
+{
+    border: 1px solid #ccc;
+    padding: 4px;
+}
+
+
+th
+{
+	background:#829f14;
+	color:white;
+}
+
+td
+{
+    
+}
+
 @media (min-width: 700px)
 {
 	
