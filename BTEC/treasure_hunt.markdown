@@ -9,7 +9,7 @@ title: Simple Pseudocode
 * Nested loops
 * Displaying things on the screen
 
-## Success Criteria
+## [Success Criteria](/2016/10/04/treasure-hunt.html)
 
 1. A working python program... (Pass / E)
 2. ...that meets the requirements... (Merit / C)
