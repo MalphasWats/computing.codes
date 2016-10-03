@@ -12,7 +12,8 @@ title: Simple Pseudocode
 ## Success Criteria
 
 1. A working python program...
-2. ...that meets the requirements
+2. ...that meets the requirements...
+3. ...including the extension
 
 ## Treasure Hunt
 
