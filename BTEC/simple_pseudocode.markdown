@@ -51,16 +51,16 @@ This algorithm asks the user to enter a number, it then shows the times table fo
 BEGIN
   INPUT table
 
-  DISPLAY "1 x " . table. " = " . 1 * table
-  DISPLAY "2 x " . table. " = " . 2 * table
-  DISPLAY "3 x " . table. " = " . 3 * table
-  DISPLAY "4 x " . table. " = " . 4 * table
-  DISPLAY "5 x " . table. " = " . 5 * table
-  DISPLAY "6 x " . table. " = " . 6 * table
-  DISPLAY "7 x " . table. " = " . 7 * table
-  DISPLAY "8 x " . table. " = " . 8 * table
-  DISPLAY "9 x " . table. " = " . 9 * table
-  DISPLAY "10 x " . table. " = " . 10 * table
+  DISPLAY "1 x " . table . " = " . 1 * table
+  DISPLAY "2 x " . table . " = " . 2 * table
+  DISPLAY "3 x " . table . " = " . 3 * table
+  DISPLAY "4 x " . table . " = " . 4 * table
+  DISPLAY "5 x " . table . " = " . 5 * table
+  DISPLAY "6 x " . table . " = " . 6 * table
+  DISPLAY "7 x " . table . " = " . 7 * table
+  DISPLAY "8 x " . table . " = " . 8 * table
+  DISPLAY "9 x " . table . " = " . 9 * table
+  DISPLAY "10 x " . table . " = " . 10 * table
 END
 ```
 
