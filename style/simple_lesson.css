@@ -141,6 +141,7 @@ section h2
 section table 
 {
 	border-collapse:collapse;
+    margin: 1em 0em 1.4em 0em;
 }
 
 section th, section td
