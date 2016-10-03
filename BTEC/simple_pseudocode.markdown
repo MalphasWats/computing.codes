@@ -47,7 +47,8 @@ What is the output of this program with the following input data?
 
 This algorithm asks the user to enter a number, it then shows the times table for that number.
 
-```BEGIN
+```
+BEGIN
   INPUT table
 
   DISPLAY "1 x " . table. " = " . 1 * table
@@ -60,7 +61,8 @@ This algorithm asks the user to enter a number, it then shows the times table fo
   DISPLAY "8 x " . table. " = " . 8 * table
   DISPLAY "9 x " . table. " = " . 9 * table
   DISPLAY "10 x " . table. " = " . 10 * table
-END```
+END
+```
 
 This algorithm is not very efficient. Why is this algorithm inefficient?
 
