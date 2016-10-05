@@ -101,9 +101,15 @@ section nav a:nth-child(2)
     background-color: #80a026;
 }
 
-section nav a:last-child
+section nav a:nth-child(3)
 {
     background-color: #e45c41;
+}
+
+section nav a:last-child
+{
+    background-color: #292522;
+    color:#633397;
 }
 
 @media (min-width: 700px)
