@@ -109,7 +109,7 @@ section nav a:nth-child(3)
 section nav a:last-child
 {
     background-color: #292522;
-    color:#633397;
+    color:#80a026;
 }
 
 @media (min-width: 700px)
