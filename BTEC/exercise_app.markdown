@@ -41,8 +41,8 @@ Write a program that presents the user with a simple menu:
 	(S)ave Data		- Save the data to a text file
 	(A)dd Ride		- Add details for a new manual ride
 	(D)isplay Key Data	- Display total distance ridden, 
-	                    - total metres climbed, 
-	                    - fastest speed ridden
+	                        - total metres climbed, 
+                            - fastest speed ridden
 ```
 
 The program should be able to load the data from the [text file provided](resources/Cycle_App_Data.txt) into an appropriate data structure and should be able to perform each of the functions listed in the menu.
