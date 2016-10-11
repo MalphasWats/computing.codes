@@ -3,11 +3,17 @@ layout: simple
 title: Exercise App Backend
 ---
 
-# Introduction
+## Learning Objectives
+
+* Working with Data Structures
+* Data Validation
+* Standard Algorithms (min, max, search & sort)
+
+## Introduction
 
 Cyclomatic is a new startup working on developing a mobile app for people to track their cycling habits. You have been drafted in by a friend to help them with some of the design and technical aspects of their app.
 
-# Ride Data
+## Ride Data
 
 As well as automatically tracking a ride using GPS and other technologies, users can enter details manually in cases where they have forgotten to start the app before their ride.
 
@@ -24,7 +30,7 @@ You must design a Data Structure that could be used to hold the data gathered ei
 * Minimum Altitude
 * Maximum Altitude
 
-# Back-end
+## Back-end
 
 As part of a proof-of-concept demonstration to potential investors, Cyclomatic want to demonstrate some of the analysis features of the app and have asked you to write some prototype code.
 
@@ -39,6 +45,6 @@ Write a program that presents the user with a simple menu:
 
 The program should be able to load the data from the [text file provided](resources/Cycle_App_Data.txt) into an appropriate data structure and should be able to perform each of the functions listed in the menu.
 
-# Test Plan & Review
+## Test Plan & Review
 
 You must ensure that your program functions correctly. Write a simple test plan that would ensure that each feature functions correctly.
