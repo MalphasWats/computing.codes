@@ -47,6 +47,26 @@ Write a program that presents the user with a simple menu:
 
 The program should be able to load the data from the [text file provided](resources/Cycle_App_Data.txt) into an appropriate data structure and should be able to perform each of the functions listed in the menu.
 
+## Adding a Ride
+
+It's the third option, but probably the first one you want to implement. Normally the app would track the details of a ride automatically, however, sometimes users forget to launch it before they ride, so it's important to have feature that allows users to enter the data for a ride manually.
+
+Because this app is designed to perform data analysis, it is *vital* that all data entered is sensible. In computing, this process is called **data validation**
+
+### Data Validation
+
+There are a number of different types of data validation:
+
+| Presence Check | Used to ensure that a value is entered |
+| Type Check     | Used to ensure that data of the correct type is entered |
+| Length Check   | Used to ensure that data of the right length is entered |
+| Range Check    | Used to ensure that numerical data between set values   |
+| Lookup Check   | Used to ensure data is entered from a set of allowed values |
+| Format Check   | Used to ensure data is entered in a specified format |
+
+For each of the data items listed above, you must apply the appropriate validation rules to ensure that data that is manually entered is valid.
+
+
 ## Test Plan & Review
 
 You must ensure that your program functions correctly. Write a simple test plan that would ensure that each feature functions correctly.
