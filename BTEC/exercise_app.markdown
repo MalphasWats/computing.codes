@@ -55,6 +55,8 @@ Because this app is designed to perform data analysis, it is *vital* that all da
 
 ### Data Validation
 
+[LO & Success Criteria](/2016/10/13/validation.html)
+
 There are a number of different types of data validation:
 
 | Presence Check | Used to ensure that a value is entered |
