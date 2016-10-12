@@ -133,3 +133,22 @@ section#content ul
 {
     list-style-position:inside;
 }
+
+section#content table 
+{
+	border-collapse:collapse;
+    margin: 1em 0em 1.4em 0em;
+}
+
+section#content th, section#content td
+{
+    border: 1px solid #ccc;
+    padding: 4px;
+}
+
+
+section#content th
+{
+	background:#829f14;
+	color:white;
+}
