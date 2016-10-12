@@ -66,6 +66,8 @@ There are a number of different types of data validation:
 
 For each of the data items listed above, you must apply the appropriate validation rules to ensure that data that is manually entered is valid.
 
+Download the [Validation Planning Sheet](resources/data_validation.docx) and complete it.
+
 
 ## Test Plan & Review
 
