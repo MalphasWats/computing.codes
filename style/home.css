@@ -83,12 +83,13 @@ section p, section nav
 section nav a
 {
     display:block;
-    width:100%;
+    width:45%;
     padding:6% 0;
-    margin:12px 0;
+    margin:12px 2%;
     text-align: center;
     color: white;
     text-decoration: none;
+    float: left;
 }
 
 section nav a:first-child
@@ -115,6 +116,7 @@ section nav a:last-child
 {
     background-color: #292522;
     color:#80a026;
+    display:none;
 }
 
 @media (min-width: 700px)
