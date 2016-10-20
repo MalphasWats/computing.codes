@@ -6,6 +6,7 @@ title: GCSE
 ## Tasks
 
 1. [Binary Arithmetic](resources/Binary_arithmetic.xlsx)
+1. [Fetch - Decode - Execute](resources/fetch-decode-execute.xlsx)
 
 ## Resources
 
