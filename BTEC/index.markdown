@@ -9,8 +9,10 @@ title: BTEC
 2. [Treasure Hunt](treasure_hunt.html)
 2. [Igpay Atinlay](igpay_atinlay.html)
 4. [Exercise App](exercise_app.html)
+5. [Computing for Robotics](robotics_one.html)
 
 
 ## Resources
 
 1. [codebreak.py](resources/codebreak.py)
+2. [microbit.org](http://microbit.org/code/)
