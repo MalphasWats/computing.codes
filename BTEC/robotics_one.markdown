@@ -5,9 +5,9 @@ title: Computing for Robotics
 
 ## Learning Objectives
 
-* A2: Pattern Recognition, Identify common elements in a system
-* A4: Algorithm Design, Describing a step-by-step solution to a problem
-* B1: Pseudocode, Producing pseudocode
+* A2 - Pattern Recognition: Identify common elements in a system
+* A4 - Algorithm Design: Describing a step-by-step solution to a problem
+* B1 - Pseudocode: Producing pseudocode
 
 ## Success Criteria
 
