@@ -7,6 +7,7 @@ title: GCSE
 
 1. [Binary Arithmetic](resources/Binary_arithmetic.xlsx)
 1. [Fetch - Decode - Execute](resources/fetch-decode-execute.xlsx)
+3. [Maths Quiz](maths_quiz.html)
 
 ## Resources
 
