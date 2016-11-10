@@ -91,3 +91,9 @@ Enter this information into the **Decisions** sheet, again using appropriate tit
 The first step is to assign an appropriate animal to each keeper. We could just type in the name for each animal, but we want to make sure there are no mistakes like spelling the animal name wrong, or assigning an animal that the zoo isn't going to keep! 
 
 This is called **Data Validation** - making sure that data entered is *valid* or *usable* by our spreadsheet.
+
+## Checkpoint
+
+Make sure your spreadsheet has all of the features by checking against this version:
+
+[First Checkpoint Version](resources/Zoo.xlsx)
