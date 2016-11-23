@@ -10,7 +10,7 @@ title: BTEC
 2. [Igpay Atinlay](igpay_atinlay.html)
 4. [Exercise App](exercise_app.html)
 5. [Computing for Robotics](robotics_one.html)
-
+6. [Runpy](runpy.html)
 
 ## Resources
 
