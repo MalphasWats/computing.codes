@@ -45,6 +45,28 @@ The new `Sprite` class needs to implement it's own `update()` **method** to enab
 
 Next, the `Sprite` class will need to implement a **callback** method that will be used to handle events later. Call the new method `Jump`.
 
+## Animation & SpriteSheets
+
+If you want to animate your sprite (and let's be honest, why wouldn't you), download the spritesheet module:
+
+[![Runpy.py](/jumpy/resources/pyicon.gif)](resources/spritesheet.py)
+
+save it in the same folder as your `runpy.py` file, and add this to the top of `runpy.py`:
+
+```
+from spritesheet import SpriteSheet
+```
+
+You can create spritesheets in a similar way to tiles & sprites:
+
+```
+spritesheet = SpriteSheet("spritesheet.png", 32, 32)
+```
+
+where `spritesheet.png` is the filename of your spritesheet image and `32, 32` are the width and height of each tile in the sheet.
+
+Next you need to modify your `Sprite` class to use these sheets and change between each image in the `update()` method.
+
 ## Listening for Events
 
 ...
