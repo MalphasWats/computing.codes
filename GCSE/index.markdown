@@ -11,6 +11,7 @@ title: GCSE
 1. [Fetch - Decode - Execute](resources/fetch-decode-execute.xlsx)
 3. [Maths Quiz](maths_quiz.html)
 5. [Quadcopters](resources/Quadcopters.docx)
+7. [Micro Bit](resources/balance.png)
 
 ## Resources
 
