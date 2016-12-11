@@ -1,6 +1,6 @@
 ---
 layout: simple
-title: Atandard Algorithms
+title: Standard Algorithms
 ---
 
 ## Learning Objectives
