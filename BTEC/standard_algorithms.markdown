@@ -22,7 +22,7 @@ title: Atandard Algorithms
 
 Your first task is to download the text file below & write a python program to read the contents into a `list`.
 
-[![Numbers.txt](/resources/txticon.png)](resources/numbers.txt)
+[![Numbers.txt](resources/txticon.png)](resources/numbers.txt)
 
 For each of the following *Standard Algorithms*, you must implement a **function** that takes a `list` as a parameter and returns an appropriate result.
 
