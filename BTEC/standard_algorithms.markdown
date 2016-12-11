@@ -12,10 +12,10 @@ title: Standard Algorithms
 ## Success Criteria
 
 | Level | Criteria | Alice | Andrew | Charles | Mantas | Mason |
-|=======|==========|=|=|=|=|=|
+|=======|==========|:=:|:=:|:=:|:=:|:=:|
 | Pass  | Maximum / Minimum algorithm implemented | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> |
-| Merit | Maximum / Minimum algorithms *timed* |
-| Distinction | Maximum / Minimum / Bubble Sort algorithms implemented & timed |
+| Merit | Maximum / Minimum algorithms *timed* | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> |
+| Distinction | Maximum / Minimum / Bubble Sort algorithms implemented & timed | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> |
 
 
 ## Lots of Numbers
