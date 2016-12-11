@@ -11,6 +11,7 @@ title: BTEC
 4. [Exercise App](exercise_app.html)
 5. [Computing for Robotics](robotics_one.html)
 6. [Runpy](runpy.html)
+7. [Standard Algorithms](standard_algorithms.html)
 
 ## Resources
 
