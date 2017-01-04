@@ -27,7 +27,10 @@ A primary school teacher wants a computer program to test the basic arithmetic s
 
 Start by analysing the requirements - break it down into steps.
 
-**Produce a flow chart to describe this system**
+1. Write an ordered list of steps that this progam must complete
+2. [Use draw.io][DIO] to create a flow chart to describe this system
+
+[DIO]: http://www.draw.io
 
 ## Systems Development
 
