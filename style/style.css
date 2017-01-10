@@ -102,6 +102,11 @@ section#wilf ul
     margin-bottom:6%;
 }
 
+ul li p
+{
+    display: inline;
+}
+
 ul#keywords
 {
     list-style-type: none;
