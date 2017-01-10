@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Validation
+title: Python Menus
 tags: [GCSE, menus, strings]
 walt:
 - Implementing menus in python
