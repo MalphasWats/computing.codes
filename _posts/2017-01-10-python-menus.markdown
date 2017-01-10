@@ -26,6 +26,8 @@ wilf_3_levels: B - A
 wilf_3_bullets:
 - Multi-line menu with options
 - options include exit option
+- options each produce appropriate output
+- options can be entered in upper & lower case
 - menu functionality implemented with functions
 ---
 
