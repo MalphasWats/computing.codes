@@ -12,6 +12,7 @@ title: GCSE
 3. [Maths Quiz](maths_quiz.html)
 5. [Quadcopters](resources/Quadcopters.docx)
 7. [Micro Bit](resources/balance.png)
+8. [AI Case Study](resources/thelma.docx)
 
 ## Resources
 
