@@ -17,3 +17,8 @@ title: BTEC
 
 1. [codebreak.py](resources/codebreak.py)
 2. [microbit.org](http://microbit.org/code/)
+
+### Unit 7
+
+* [Unit 7 Specification](resources/Unit 7 Spec.pdf)
+* [Unit 7 Assignment 1 (Due 2017 - 03 - 01)](resources/U7 Assignment 1.docx)
