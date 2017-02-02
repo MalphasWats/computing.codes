@@ -3,9 +3,10 @@ layout: simple
 title: Applied ICT
 ---
 
-## Unit 7 Assignments
+## Unit 7
 
-1. [Green Bay Building Company](resources/Unit_7_Assignment_1.pdf)
+1. [Raptshia](resources/Jan 2011 Question Paper.pdf)
+2. [Raptshia Data](resources/Customers.txt)
 
 ## Resources
 
