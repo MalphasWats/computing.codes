@@ -23,4 +23,5 @@ title: GCSE
 * [Question Paper](CA/1CP0_02 June 2015.pdf)
 * [clientRecords.txt](CA/clientRecords.txt)
 * [clientIntensity.txt](CA/clientIntensity.txt)
+* [exerciseActivities.txt](CA/exerciseActivities.txt)
 * [test_plan.docx](CA/test_plan.docx)
