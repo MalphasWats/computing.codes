@@ -17,3 +17,10 @@ title: GCSE
 ## Resources
 
 1. [GCSE Revision](revision.html)
+
+## Controlled Assessment
+
+* [Question Paper](CA/1CP0_02 June 2015.pdf)
+* [clientRecords.txt](CA/clientRecords.txt)
+* [clientIntensity.txt](CA/clientIntensity.txt)
+* [test_plan.docx](CA/test_plan.docx)

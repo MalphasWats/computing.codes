@@ -1,0 +1,13 @@
+High 
+Running
+Swimming
+Aerobics
+Football
+Tennis
+
+Moderate
+Walking
+Hiking
+Cleaning
+Skateboarding
+Basketball
