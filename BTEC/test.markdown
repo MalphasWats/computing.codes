@@ -3,11 +3,10 @@ layout: simple
 title: Markdown test
 ---
 
-<section class="test" markdown="1">
+<section class="test">
 ## Learning Objectives
 
 a normal paragraph
 
 **bold**
-
 </section>
