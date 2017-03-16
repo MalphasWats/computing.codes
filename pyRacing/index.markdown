@@ -22,6 +22,21 @@ You should already have your car and track tiles, but if you want to use these o
 
 [![tiles.png](resources/tiles.png)](resources/tiles.png)
 
+## BUG FIX
+
+If you downloaded the file before I fixed a bug, copy the code below and replace `lines 21 - 28`
+
+```
+        if self.x > track_width * TILE_SIZE * SCALE:
+            self.x = 0
+        elif self.x < 0:
+            self.x = track_width * TILE_SIZE * SCALE
+        if self.y > track_height * TILE_SIZE * SCALE:
+            self.y = 0
+        elif self.y < 0:
+            self.y = track_height * TILE_SIZE * SCALE
+```
+
 ## Creating a track
 
 Your first task is to create a track tile map. Find the following code in the `racer.py` file:

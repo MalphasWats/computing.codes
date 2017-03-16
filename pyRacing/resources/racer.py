@@ -18,14 +18,14 @@ class Car(Sprite):
         self.speed = 3
     
     def update(self):
-        if self.x > WIDTH:
+        if self.x > track_width * TILE_SIZE * SCALE:
             self.x = 0
         elif self.x < 0:
-            self.x = WIDTH
-        if self.y > HEIGHT:
+            self.x = track_width * TILE_SIZE * SCALE
+        if self.y > track_height * TILE_SIZE * SCALE:
             self.y = 0
         elif self.y < 0:
-            self.y = HEIGHT
+            self.y = track_height * TILE_SIZE * SCALE
         
         # Need to calculate x and y based on angle
         x = math.cos( math.radians(self.angle - self.initial_rotation) ) * self.speed
