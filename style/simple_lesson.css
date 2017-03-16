@@ -117,7 +117,7 @@ section img
     margin: 0 auto;
 }
 
-section img.inline
+section img.inline, section a img
 {
     display:inline-block;
 }
