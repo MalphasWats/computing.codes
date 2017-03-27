@@ -17,6 +17,7 @@ title: GCSE
 ## Resources
 
 1. [GCSE Revision](revision.html)
+2. [Python Syntax Booklet](resources/PythonSyntaxBooklet.pdf)
 
 ## Controlled Assessment
 
