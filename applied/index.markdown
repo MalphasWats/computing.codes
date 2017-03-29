@@ -6,7 +6,8 @@ title: Applied ICT
 ## Unit 7
 
 1. [Raptshia](resources/Jan 2011 Question Paper.pdf)
-2. [Raptshia Data](resources/Customers.txt)
+2. [Raptshia Data](resources/Customers.txt)]
+3. [Doggies.txt](resources/doggies.txt)
 
 ## Resources
 
