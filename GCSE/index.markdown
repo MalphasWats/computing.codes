@@ -13,6 +13,7 @@ title: GCSE
 5. [Quadcopters](resources/Quadcopters.docx)
 7. [Micro Bit](resources/balance.png)
 8. [AI Case Study](resources/thelma.docx)
+9. [Databases - SQL](resources/battlebots.zip)
 
 ## Resources
 
