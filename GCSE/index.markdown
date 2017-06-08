@@ -14,6 +14,7 @@ title: GCSE
 7. [Micro Bit](resources/balance.png)
 8. [AI Case Study](resources/thelma.docx)
 9. [Databases - SQL](resources/battlebots.zip)
+10. [Python GUIs](pyGUI.html)
 
 ## Resources
 
