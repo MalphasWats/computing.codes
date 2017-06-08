@@ -12,7 +12,7 @@ title: FudApp
 
 The first thing that you need to do for this project is to create a new project folder somewhere on your computer and download the file below:
 
-[![fudapp.py](resources/pyicon.gif)](resources/fudapp.py)
+[![fudapp.py](/resources/images/pyicon.gif)](resources/fudapp.py)
     
 ## API Documentation
 
