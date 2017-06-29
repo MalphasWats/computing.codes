@@ -96,7 +96,7 @@ Set them out however you want - you'll probably need to shuffle things around as
 
 next we need to create 5 car variables and *initialise* them
 
-Choose `Make a Variable` from the `Variables` menu and call it `car`
+Choose `Make a Variable` from the `Variables` menu and call it `car1`
 
 ![Block Editor](resources/15.png)
 
