@@ -83,3 +83,61 @@ Do the same again, but change the `on .. pressed` button to listen for an event 
 and instead of decreasing `x` we want to *increase* it
 
 ![Block Editor](resources/12.png)
+
+## Creating the competition
+
+Next we need to create some cars to race against. There are going to be 5 in total (one for each column of LEDs). Each car will need to be controlled separately, so we're going to need 4 extra `forever` loops from the `Basic` menu
+
+![Block Editor](resources/13.png)
+
+Set them out however you want - you'll probably need to shuffle things around as you add new blocks anyway!
+
+![Block Editor](resources/14.png)
+
+next we need to create 5 car variables and *initialise* them
+
+Choose `Make a Variable` from the `Variables` menu and call it `car`
+
+![Block Editor](resources/15.png)
+
+and add a `set car1 to` block to the `on start` initialisation block
+
+![Block Editor](resources/16.png)
+
+connect a `create sprite at` block to the `set car1 to` block, and enter the correct `x` and `y` values
+
+![Block Editor](resources/17.png)
+
+repeat this for 4 more cars, creating a new variable for each (*car2, 3, 4 and 5*) and making sure you set their `x` and `y` values correctly
+
+![Block Editor](resources/18.png)
+
+you should have a row of LEDs lit along the top of the microbit, as well as the player car at the bottom now.
+
+## Artificial Intelligence
+
+The cars along the top row are controlled by the microbit. They behave very simply and appear 'drop down' from the top (actually, you're looking at the road from above, the player car is overtaking each of the other cars!).
+
+Let's start by adding the code for `car1`. Find an empty `forever` block
+
+![Block Editor](resources/19.png)
+
+At the start of the game, we want each car to pause for a different amount of time before moving - if they all began moving towards the player car at the same time, there would be no gaps for us to dodge between!
+
+We can do this by adding a `pause` block that waits for a random amount of time. Start with the `pause` block
+
+![Block Editor](resources/20.png)
+
+and attach it to one of the empty `forever` loop blocks
+
+![Block Editor](resources/21.png)
+
+next, find the `pick random` block from the `Math` menu
+
+![Block Editor](resources/22.png)
+
+and insert it into the value part of the `pause` block. Enter the values shown below
+
+![Block Editor](resources/23.png)
+
+This will cause each car to wait for a random amount of time between 0 and 3000 milliseconds before moving for the first time.
