@@ -141,3 +141,29 @@ and insert it into the value part of the `pause` block. Enter the values shown b
 ![Block Editor](resources/23.png)
 
 This will cause each car to wait for a random amount of time between 0 and 3000 milliseconds before moving for the first time.
+
+## Flying Solo
+
+At this point you should be comfortable finding blocks and connecting them together, so it's time to apply what you've learnt.
+
+Use the image below to write the code that controls the first car. Use the colours of the blocks to help you find the right menus.
+
+![Block Editor](resources/car1_complete.png)
+
+## Going further
+
+Once you have car 1 working, duplicate the blocks for each of the other 4 cars.
+
+Test your game using a microbit.
+
+If you're happy that it's working correctly, here are some extra features you can try adding:
+
+### Score
+
+In the `Game` menu, you should see a `change score by` block. Add this to the code for each car so that if the player successfully overtakes a car, the score is increased by `1`.
+
+### Speed
+
+The code blocks for each car have a `pause` block at the bottom, waiting for `800ms`. This controls how quickly the cars move down the screen.
+
+Can you create a new variable that starts with a value of `1000` but slowly decreases each time a car is successfully overtaken? If you use the value of this variable in that `pause` block, the game should get harder as it progresses!
