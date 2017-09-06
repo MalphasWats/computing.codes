@@ -3,11 +3,14 @@ layout: simple
 title: KS3
 ---
 
-## Lessons
+## Year 7
 
-1. [Zoo Spreadsheet](zoo_spreadsheet.html)
+Coming Soon
 
+## Year 8
 
-## Micro:bit
+1. [Binary](binary.html)
 
-1. [Digital Keychain](digital-keychain.pdf)
+## Year 9
+
+Coming Soon
