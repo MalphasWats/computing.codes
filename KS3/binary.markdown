@@ -4,11 +4,27 @@ title: Binary
 ---
 
 
-<h1>Binary</h1>
-<p><em>adjective</em></p>
-<ol><li>relating to, composed of or involving two things.</li>
-<li>relating to, using, or denoting a system of numerical notation that has 2 rather than 10 as a base.</li>
-</ol>
+## Binary
+
+### Learning Objectives
+
+* Understand that computers use binary to represent data
+* Be able to convert between binary and denary.
+
+### Success Criteria
+
+| Level | Criteria
+===================
+| EA | Identify a number expressed in binary
+| 1B | Convert an 8-bit binary number to denary
+| 1A | Convert a denary number to binary
+| 2C | Identify key features of binary numbers (ending in 1 is odd etc.)
+| 2A | Recognise key binary numbers (11111111, 00000001 and so on.)
+
+*adjective*
+
+1. relating to, composed of or involving two things.
+2. relating to, using, or denoting a system of numerical notation that has 2 rather than 10 as a base.
 
 <p>Our standard method of counting involves counting ten digits. We use the symbols 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9 to represent these digits in order. This is called "<strong>Base-10</strong>" or "<strong>Denary</strong>"</p>
 <p>Using a system called "<strong>Place Value</strong>" we can use these symbols to represent any number we need. You probably learnt this in Primary School as "Units", "Tens", "Hundreds" and so on. The number 127 can be looked at as one "hundred", two "tens" and seven "units".</p>
