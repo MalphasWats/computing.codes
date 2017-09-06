@@ -104,4 +104,5 @@ title: Binary
 </script><ul><li>Convert 01100101 from binary into denary</li>
 <li>Convert 23 from denary into binary</li>
 </ul>
-<p>Download the workbook below and fill in the sections.</p>
+
+[Download the workbook to continue.](../GCSE/resources/Binary_arithmetic.xlsx)
