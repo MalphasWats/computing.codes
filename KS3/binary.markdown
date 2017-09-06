@@ -64,6 +64,7 @@ title: Binary
 }
 
 #bin {font-size:200%; margin:0 auto;}
+#bin th {width: 60px;}
 </style>
 <table class="number_system denary">
 <tbody><tr><th>Hundreds</th><th>Tens</th><th>Units</th></tr>
