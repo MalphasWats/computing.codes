@@ -12,7 +12,7 @@ title: Binary
 ## Success Criteria
 
 | Level | Criteria
-===================
+|-------|---------
 | EA | Identify a number expressed in binary
 | 1B | Convert an 8-bit binary number to denary
 | 1A | Convert a denary number to binary
