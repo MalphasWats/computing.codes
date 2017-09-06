@@ -119,4 +119,6 @@ Binary *adjective*
 <li>Convert 23 from denary into binary</li>
 </ul>
 
+[Start off with the Worksheet](resources/Binary Worksheet 1.docx)
+
 [Download the workbook to continue.](../GCSE/resources/Binary_arithmetic.xlsx)
