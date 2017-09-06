@@ -4,14 +4,12 @@ title: Binary
 ---
 
 
-## Binary
-
-### Learning Objectives
+## Learning Objectives
 
 * Understand that computers use binary to represent data
 * Be able to convert between binary and denary.
 
-### Success Criteria
+## Success Criteria
 
 | Level | Criteria
 ===================
@@ -21,7 +19,7 @@ title: Binary
 | 2C | Identify key features of binary numbers (ending in 1 is odd etc.)
 | 2A | Recognise key binary numbers (11111111, 00000001 and so on.)
 
-*adjective*
+Binary *adjective*
 
 1. relating to, composed of or involving two things.
 2. relating to, using, or denoting a system of numerical notation that has 2 rather than 10 as a base.
