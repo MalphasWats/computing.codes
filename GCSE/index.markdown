@@ -15,6 +15,7 @@ title: GCSE
 8. [AI Case Study](resources/thelma.docx)
 9. [Databases - SQL](resources/battlebots.zip)
 10. [Python GUIs](pyGUI.html)
+11. [Tetris](http://computing.codes/2016/09/07/Describing-Algorithms-2.html)
 
 ## Resources
 
