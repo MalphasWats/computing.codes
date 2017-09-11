@@ -35,6 +35,8 @@ Copy the table below into a new Word document and complete it
 
 ## Where are we?
 
+Why can't our rover use GPS to find where it is?
+
 The MicroRover's mission is to search an area of 10 square kilometres, using its probe to detect water in the ground. It must report once every hour to the Orbital Relay which will send any data back to Earth for you to analyse.
 
 When the MicroRover lands, the Orbital Relay automatically sends you its exact starting position on the surface of Mars.
