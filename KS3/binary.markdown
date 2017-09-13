@@ -122,3 +122,28 @@ Binary *adjective*
 [Start off with the Worksheet](resources/Binary Worksheet 1.docx)
 
 [Download the workbook to continue.](../GCSE/resources/Binary_arithmetic.xlsx)
+
+## Addition
+
+Computers are *really* good at adding numbers together but they have to do it in a very particular way.
+
+Think about how you learnt to add two numbers together:
+
+| hundreds | tens | units |
+|==========|======|=======|
+|          |  5   |   9   |
+|          |  2   |   3   |
+
+We start off adding 3 and 9, which gives us 12. You can't have 12 units in our denary system, so the 1 gets *carried* into the *tens* column. Next we add 5, 2 and the carried 1, which gives us 8. The answer is 82.
+
+When we add binary, we do something similar, but because we only have the symbols 1 and 0, we have to do a *lot* more carrying.
+
+We can break things down into 3 rules:
+
+1. `0 + 1`, or `1 + 0` = 1
+2. `1 + 1` = 0, *carry 1*
+3. `1 + 1 + 1` = 1, *carry 1*
+
+armed with these 3 rules, we can add any two binary numbers together.
+
+Use the *Addition* tab in the [excel workbook](../GCSE/resources/Binary_arithmetic.xlsx) to try this out.
