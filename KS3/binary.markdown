@@ -202,7 +202,8 @@ Computers can't subtract.
 
 But they're still really good at addition! Consider that the following sum can be written out in several ways:
 
-``` 2 - 1 = 1
+``` 
+ 2 - 1 = 1
  2 + (-1) = 1
  -1 + 2 = 1
 ```
