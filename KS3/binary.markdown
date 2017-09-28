@@ -147,3 +147,85 @@ We can break things down into 3 rules:
 armed with these 3 rules, we can add any two binary numbers together.
 
 Use the *Addition* tab in the [excel workbook](../GCSE/resources/Binary_arithmetic.xlsx) to try this out.
+
+## Negative numbers
+
+So far we've only been able to represent *unsigned* numbers (they aren't positive or negative).
+
+It's quite often useful to be able to represent positive and negative numbers too. Computers use a number of different ways to represent *signed* integers, the most popular of which is called **two's complement**.
+
+### Two's Complement
+
+Two's Complement works almost exactly the same way as the *unsigned* numbers we've seen so far, with one change that makes all the difference:
+
+<table class="number_system binary" id="twocomp">
+<tbody>
+<tr><th>-128</th><th>64</th><th>32</th><th>16</th><th>8</th><th>4</th><th>2</th><th>1</th></tr>
+<tr><td class="zero">0</td><td class="zero">0</td><td class="zero">0</td><td class="zero">0</td><td class="zero">0</td><td class="zero">0</td><td class="zero">0</td><td class="zero">0</td></tr>
+</tbody></table>
+
+<script type="text/javascript">
+
+(function()
+{
+	var t = document.getElementById('twocomp')
+	td = t.getElementsByTagName('td')
+	for (var i=0; i<td.length; i++)
+	{
+		td[i].onclick = function(e)
+		{
+			if (this.innerHTML == '1') { this.innerHTML = '0'; this.className='zero'; }
+			else { this.innerHTML = '1'; this.className='one'; }
+		}.bind(td[i])
+	}
+})()
+
+</script>
+
+We still only have 8 bits to represent our number, but now the left-most (or *most significant*) bit represents **-128** instead of 128.
+
+Now we can use 8 bits to represent both positive and negative numbers.
+
+We can represent the number -7 as follows:
+
+<table class="number_system binary">
+<tbody>
+<tr><th>-128</th><th>64</th><th>32</th><th>16</th><th>8</th><th>4</th><th>2</th><th>1</th></tr>
+<tr><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td></tr>
+</tbody></table>
+
+which is equivalent to the sum ` -128 + 64 + 32 + 16 + 8 + 1 ` which is -7.
+
+## Subtraction
+
+Computers can't subtract.
+
+But they're still really good at addition! Consider that the following sum can be written out in several ways:
+
+``` 2 - 1 = 1
+ 2 + (-1) = 1
+ -1 + 2 = 1
+```
+
+We can use this, along with our Two's Complement to do subtraction.
+
+Let's use the sum above `2 - 1`
+
+first, we need the numbers represented in binary:
+
+<table class="number_system binary">
+<tbody>
+<tr><th>-128</th><th>64</th><th>32</th><th>16</th><th>8</th><th>4</th><th>2</th><th>1</th></tr>
+<tr><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td></tr>
+<tr><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+</tbody></table>
+
+The top number is positive 2, the second number is negative 1, represented using Two's Complement. Now if we add the numbers together using our addition rules:
+
+<table class="number_system binary">
+<tbody>
+<tr><th>-128</th><th>64</th><th>32</th><th>16</th><th>8</th><th>4</th><th>2</th><th>1</th></tr>
+<tr><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+</tbody></table>
+
+We get the answer we were expecting!
