@@ -19,8 +19,8 @@ After you click on the link, click the "Create Sprite" button.
 
 Take a look at the examples below - notice how the overall shape of the car has been set out using a dark outline which has then been coloured in. Shading has then been used to give the car some depth.
 
-<img src="resources/racing car.png" style="display:inline-block">
-<img src="resources/racing car 2.png" style="margin-left:8px; display:inline-block">
+<img src="resources/racing car large.png" style="display:inline-block">
+<img src="resources/racing car 2 large.png" style="margin-left:8px; display:inline-block">
 
 When it's time to save. Click the save button and choose "save as .piskel"
 
