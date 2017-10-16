@@ -13,6 +13,10 @@ title: BTEC
 6. [Runpy](runpy.html)
 7. [Standard Algorithms](standard_algorithms.html)
 
+## Unit 2
+
+1. [Registers](registers.html)
+
 ## Resources
 
 1. [codebreak.py](resources/codebreak.py)
