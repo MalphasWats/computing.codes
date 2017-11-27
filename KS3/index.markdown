@@ -10,9 +10,7 @@ Coming Soon
 ## Year 8
 
 1. [Binary](binary.html)
-
 2. [Pixel Art](pixel_car.html)
-
 3. [Modelling](modelling.html)
 
 ## Year 9
