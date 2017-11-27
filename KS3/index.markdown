@@ -13,6 +13,8 @@ Coming Soon
 
 2. [Pixel Art](pixel_car.html)
 
+3. [Modelling](modelling.html)
+
 ## Year 9
 
 1. [MicroRover](rover.html)
