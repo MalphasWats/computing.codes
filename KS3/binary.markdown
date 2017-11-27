@@ -194,7 +194,7 @@ We can represent the number -7 as follows:
 <tr><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td></tr>
 </tbody></table>
 
-which is equivalent to the sum ` -128 + 64 + 32 + 16 + 8 + 1 ` which is -7.
+which is equivalent to the sum `-128 + 64 + 32 + 16 + 8 + 1` which is -7.
 
 ## Subtraction
 
