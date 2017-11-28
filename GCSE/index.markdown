@@ -17,6 +17,10 @@ title: GCSE
 10. [Python GUIs](pyGUI.html)
 11. [Tetris](http://computing.codes/2016/09/07/Describing-Algorithms-2.html)
 
+## Computer Game Concept
+
+1. [Developing an initial idea](concept.html)
+
 ## Resources
 
 1. [GCSE Revision](revision.html)
