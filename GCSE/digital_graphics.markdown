@@ -27,6 +27,6 @@ Start by downloading the [report template](resources/digital_graphics_report.doc
 
 Next, pick a range of different types of graphic from this website:
 
-#[http://www.dribbble.com](http://www.dribbble.com)
+[#http://www.dribbble.com](http://www.dribbble.com)
 
 and fill in the details on the report.
