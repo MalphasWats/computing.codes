@@ -21,6 +21,10 @@ title: GCSE
 
 1. [Developing an initial idea](concept.html)
 
+## Digital Graphics
+
+1. [Types of digital graphics](digital_graphics.html)
+
 ## Resources
 
 1. [GCSE Revision](revision.html)
