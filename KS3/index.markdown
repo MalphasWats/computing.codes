@@ -16,5 +16,6 @@ Coming Soon
 ## Year 9
 
 1. [MicroRover](rover.html)
+2. [Pico 8 Palette Download](resources/pico-8.gpl)
 2. [Game Concept](gameConcept.html)
 3. [Storyboard](storyboard.html)
