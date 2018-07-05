@@ -12,7 +12,7 @@ Tkinter (TK Interface, don't ask what the TK stands for, because apparently it's
 Using either python IDLE or Notepad++, create a new python file (save it as *pythagotchi.py*) and type in the following code:
 
 ```
-from Tkinter import *
+from tkinter import *
 
 window = Tk()
 
