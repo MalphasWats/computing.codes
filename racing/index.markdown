@@ -23,40 +23,6 @@ Next, click on scratch the cat down in the sprites pane and delete the sprite - 
 
 ![Delete Scratch the Cat](resources/02-delete-scratch-sprite.png)
 
-## Drawing a Car
-
-We need to draw a racing car. There are 3 important things we need to keep in mind:
-
-1. It must be **top down** view, as if you were looking at it from above
-2. It needs to be facing (driving) to the right ->->->
-3. It shouldn't be too big
-
-Create a new sprite:
-
-![New Sprite](resources/03-new-sprite.png)
-
-Use the drawing tools to draw a racing car:
-
-![Drawing Tools](resources/04-drawing-tools.png)
-
-Make sure it's pointing in the right direction!
-
-![Car Sprite](resources/05-car-sprite.png)
-
-## Drawing a Track
-
-With the car done, the next task is to create a racetrack. Click the *Stage* on the right to select it and make sure the "Backdrops" tab it selected at the top:
-
-![Edit Stage](resources/06-edit-stage.png)
-
-Use the drawing tools to draw a track. We need to make sure it fills the whole stage and has a nice wide road.
-
-![Draw Track](resources/07-draw-track.png)
-
-At this point, you might find that your car is a little too big or too small. Click the car sprite in the "Sprites" panel and use the resize tools to make it bigger or smaller:
-
-![Resize Car](resources/08-resize-car.png)
-
 ## Programming the Car
 
 Select the car sprite from the sprite pane at the bottom and click the `Scripts` tab in the middle pane. **Make sure you are definitely adding scripts to the car, not the stage!**
