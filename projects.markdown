@@ -1,27 +1,35 @@
 ---
-layout: simple
+layout: projects
 title: Projects
 ---
 
-## Programming - Microbit
+## Microbit
 
-1. [BitRacer](/BitRacer/index.html)
+		<ul class="projects">
+		
+		<li>
+			<img src="BitRacer/flavour.png" alt="BitRacer">
+			<h3>Scratch Racing</h3>
+			<p>Make a simple Micro:Bit game.</p>
+			<a href="BitRacer/">
+				Go
+			</a>
+		</li>
+		
+		</ul>
 
 
-## Programming - Scratch
+## Scratch
 
-1. [Scratch Racing](/racing/index.html)
-
-
-## Programming - Python
-
-1. [pyRacing](/pyRacing/index.html)
-1. [Pythagotchi](/pythagotchi/index.html)
-2. [Jumpy](/jumpy/index.html)
-
-## Graphic Design
-
-1. [Fireworks - Pen Tool](/gfxdesign.html)
-2. [Stop Motion - Fairytale with a Twist](/stopmotion/index.html)
-3. [Web Comic](/webcomic/index.html)
-4. [Logo](/logo/index.html)
+		<ul class="projects">
+		
+		<li>
+			<img src="ScratchRacing/flavour.png" alt="Scratch Racing">
+			<h3>Scratch Racing</h3>
+			<p>Program a top-down racing game in Scratch.</p>
+			<a href="ScratchRacing/">
+				Go
+			</a>
+		</li>
+		
+		</ul>

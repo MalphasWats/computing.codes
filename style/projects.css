@@ -35,14 +35,9 @@ body
     line-height:120%;
 }
 
-h1
+h1, h1 a, h2, h3
 {
 	color:#829f14;
-}
-
-h1 span
-{
-    color: #292522;
 }
 
 a
@@ -70,66 +65,123 @@ header p
 	font-size: 90%;
 }
 
+header>a
+{
+	float:right;
+	text-decoration: none;
+	color:#ccc;
+	font-size:80%;
+}
+
+header nav ul
+{
+	overflow:auto;
+	list-style-type:none;
+}
+
+header nav ul li
+{
+	float:right;
+	padding:0px 8px;
+}
+
+header nav ul li a
+{
+	text-decoration: none;
+}
+
 section
 {
 	margin-top:2em;
 }
 
-section p, section nav
+section p
 {
 	margin: 1em 0em 1.4em 0em;
 }
 
-section nav a
+section ul, section ol
 {
+	margin: 1em 0em 1.4em 1.2em;
+}
+
+section ol
+{
+    margin-left: 2.2em;
+}
+
+section img
+{
+	max-width:100%;
     display:block;
-   
-    padding:6% 0;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    float: left;
+    margin: 0 auto;
 }
 
-section nav a:nth-child(n + 1):not(:nth-child(n + 4))
+section img.inline, section a img
 {
-	 width:30%;
-	 margin:12px 2% 12px 0px;
+    display:inline-block;
 }
 
-section nav a:nth-child(n + 4):not(:nth-child(n + 6))
+section video
 {
-	 width:46%;
-	 margin:12px 2% 12px 0px;
+    display: block;
+    margin:0 auto 1em auto;
 }
 
-section nav a:first-child
+section pre, section code
 {
-    background-color: #3399FF;
+    background-color: #fee4c5;
 }
 
-section nav a:nth-child(2)
+section h2
 {
-    background-color: #80a026;
+	margin:0.2em 0;
 }
 
-section nav a:nth-child(3)
+ul.projects
 {
-    background-color: #e45c41;
+	list-style-type:none;
 }
 
-section nav a:nth-child(4), section nav a:nth-child(5)
+ul.projects li
 {
-    background-color: #633397;
+	overflow:hidden;
+	background-color: #f4f4f4;
+	padding:12px;
+	margin-bottom:24px;
 }
 
-section nav a:last-child
+ul.projects li img
 {
-    background-color: #292522;
-    color:#80a026;
-	margin:12px 4% 0px 0px;
-    width: 94%;
+	float:left;
+	
+	margin-right:12px;
 }
+
+ul.projects li a
+{
+	display:inline-block;
+	
+	width:80px;
+	
+	text-align:center;
+	text-decoration:none;
+	
+	background-color:#3399FF;
+	padding:12px 6px;
+	border-radius: 6px;
+	
+	float:right;
+	
+	color:white;
+}
+
+ul.sprojects li p
+{
+	height:30px;
+	overflow:visible;
+}
+
 
 @media (min-width: 700px)
 {
