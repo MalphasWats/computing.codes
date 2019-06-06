@@ -8,7 +8,7 @@ https://prismjs.com/download.html#themes=prism&languages=lua */
 
  @font-face {
    font-family: 'Pico8';
-   src: url('assets/fonts/PICO-8-wide-reversed.ttf') format('truetype');
+   src: url('assets/fonts/pico-8.otf') format("opentype");
  }
 
 code[class*="language-"],
