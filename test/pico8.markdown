@@ -1,6 +1,6 @@
 ---
 layout: pico8
-title: BitRacer
+title: Pico-8
 ---
 
 ## Learning Objectives
