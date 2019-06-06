@@ -6,12 +6,17 @@ https://prismjs.com/download.html#themes=prism&languages=lua */
  * @author Lea Verou
  */
 
+ @font-face {
+   font-family: 'Pico8';
+   src: url('assets/fonts/PICO-8-wide-reversed.ttf') format('truetype');
+ }
+
 code[class*="language-"],
 pre[class*="language-"] {
 	color: black;
 	background: none;
 	text-shadow: 0 1px white;
-	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-family: Pico8, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	font-size: 1em;
 	text-align: left;
 	white-space: pre;
@@ -139,4 +144,3 @@ pre[class*="language-"] {
 .token.entity {
 	cursor: help;
 }
-
