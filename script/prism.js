@@ -5,7 +5,7 @@ Prism.languages.lua={
     string:{pattern:/(["'])(?:(?!\1)[^\\\r\n]|\\z(?:\r\n|\s)|\\(?:\r\n|[\s\S]))*\1|\[(=*)\[[\s\S]*?\]\2\]/,greedy:!0},
     number:/\b0x[a-f\d]+\.?[a-f\d]*(?:p[+-]?\d+)?\b|\b\d+(?:\.\B|\.?\d*(?:e[+-]?\d+)?\b)|\B\.\d+(?:e[+-]?\d+)?\b/i,
     keyword:/\b(?:and|break|do|else|elseif|end|false|for|function|goto|if|in|local|nil|not|or|repeat|return|then|true|until|while)\b/,
-    builtin:/\b(?:cls|spr|map)\b/,
+    builtin:/\b(?:flip|camera|circ|circfill|clip|cls|color|cursor|fget|fillp|fset|line|pal|pget|print|pset|rect|rectfill|sget|spr|sset|sspr|add|all|del|foreach|pairs|btn|btnp|music|sfx|map|mget|mset|cstore|memcpy|memset|peek|poke|reload|abs|atan2|band|bnot|bor|bxor|cos|flr|max|mid|min|rnd|shl|shr|sin|sqrt|srand|cartdata|dget|dset|cocreate|coresume|costatus|yield|setmetatable|getmetatable|type|sub|tonum|tostr|time|menuitem|extcmd|assert|printh|stat|stop|trace)\b/,
     function:/(?!\d)\w+(?=\s*(?:[({]))/,
     operator:[/[-+*%^&|#]|<[<=]?|>[>=]?|[=~]=?/,{pattern:/(^|[^.])\.\.(?!\.)/,lookbehind:!0}],
     punctuation:/[\[\](){},;]|\.+|:+/
