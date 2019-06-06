@@ -55,7 +55,7 @@ function _update()
 end
 
 function _draw()
-  cls
+  cls()
 
   spr(frame, px, py)
 end
