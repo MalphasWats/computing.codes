@@ -8,14 +8,19 @@ https://prismjs.com/download.html#themes=prism&languages=lua */
 
  @font-face {
    font-family: 'Pico8';
-   src: url('assets/fonts/pico-8.otf') format("opentype");
+   src: url('assets/fonts/pico-8.ttf') format("truetype");
  }
+
+body
+{
+	max-width: 100%;
+	margin: 0px 5%;
+}
 
 code[class*="language-"],
 pre[class*="language-"] {
-	color: black;
+	color: #c2c2c7;
 	background: none;
-	text-shadow: 0 1px white;
 	font-family: Pico8, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	font-size: 1em;
 	text-align: left;
@@ -38,13 +43,13 @@ pre[class*="language-"] {
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
 	text-shadow: none;
-	background: #b3d4fc;
+	background: #1d2b53;
 }
 
 pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 code[class*="language-"]::selection, code[class*="language-"] ::selection {
 	text-shadow: none;
-	background: #b3d4fc;
+	background: #1d2b53;
 }
 
 @media print {
@@ -63,7 +68,7 @@ pre[class*="language-"] {
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-	background: #f5f2f0;
+	background: #1d2b53;
 }
 
 /* Inline code */
@@ -77,11 +82,11 @@ pre[class*="language-"] {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-	color: slategray;
+	color: #83769c;
 }
 
 .token.punctuation {
-	color: #999;
+	color: #fff1e8;
 }
 
 .namespace {
@@ -95,16 +100,21 @@ pre[class*="language-"] {
 .token.constant,
 .token.symbol,
 .token.deleted {
-	color: #905;
+	color: #29adff;
 }
 
 .token.selector,
 .token.attr-name,
 .token.string,
 .token.char,
-.token.builtin,
+
 .token.inserted {
-	color: #690;
+	color: #29adff;
+}
+
+.token.builtin
+{
+	color: #00e436;
 }
 
 .token.operator,
@@ -112,19 +122,18 @@ pre[class*="language-"] {
 .token.url,
 .language-css .token.string,
 .style .token.string {
-	color: #9a6e3a;
-	background: hsla(0, 0%, 100%, .5);
+	color: #fff1e8;
 }
 
 .token.atrule,
 .token.attr-value,
 .token.keyword {
-	color: #07a;
+	color: #ff77a8;
 }
 
 .token.function,
 .token.class-name {
-	color: #DD4A68;
+	color: #c2c2c7;
 }
 
 .token.regex,
