@@ -11,8 +11,7 @@ title: Pico-8
 ## Code
 
 
-<pre><code class="language-lua">
-function _draw()
+<pre><code class="language-lua">function _draw()
   cls()
 
   spr(1, 8, 16)
@@ -20,6 +19,6 @@ function _draw()
   str = "this is a string"
   --this is a comment
 
-  symbols = "⬆️⬇️⬅️➡️❎∧░⧗▤☉◆⌂웃♥●✽★█▥ˇ▒♪🅾🐱😐️"
+  symbols = "⬆️⬇️⬅️➡️❎∧░⧗▤☉◆⌂웃♥●✽★█▥ˇ▒♪🅾️🐱😐"
 end
 </code></pre>
