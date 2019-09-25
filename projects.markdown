@@ -9,7 +9,7 @@ title: Projects
 
 <li>
 	<img src="BitRacer/flavour.png" alt="BitRacer">
-	<h3>Scratch Racing</h3>
+	<h3>Bit:Racer</h3>
 	<p>Make a simple Micro:Bit game.</p>
 	<a href="BitRacer/">
 		Go
