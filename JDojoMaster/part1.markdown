@@ -40,14 +40,14 @@ public class JDojoMaster extends JFrame {
 
     static final long serialVersionUID = 0;
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		JDojoMaster window = new JDojoMaster();
-	}
+        JDojoMaster window = new JDojoMaster();
+    }
 
-	public JDojoMaster() {
+    public JDojoMaster() {
 
-		setTitle("JDojoMaster");
+        setTitle("JDojoMaster");
         setResizable(false);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
@@ -70,17 +70,17 @@ import java.awt.Dimension;
 
 public class Scene extends JPanel {
 
-	static final long serialVersionUID = 1;
+    static final long serialVersionUID = 1;
 
-	private int width;
-	private int height;
+    private int width;
+    private int height;
 
-	public Scene() {
-		super();              // Make sure to call the JPanel constructor
+    public Scene() {
+        super();              // Make sure to call the JPanel constructor
 
-		width = 256;          // Default width
-		height = 256;         // Default height
-	}
+        width = 256;          // Default width
+        height = 256;         // Default height
+    }
 
     public Dimension getPreferredSize() {
         return new Dimension(this.width,this.height);
@@ -103,14 +103,14 @@ public class JDojoMaster extends JFrame {
 
     protected Scene scene;                      // This line is new
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		JDojoMaster window = new JDojoMaster();
-	}
+        JDojoMaster window = new JDojoMaster();
+    }
 
-	public JDojoMaster() {
+    public JDojoMaster() {
 
-		setTitle("JDojoMaster");
+        setTitle("JDojoMaster");
         setResizable(false);
         setDefaultCloseOperation(EXIT_ON_CLOSE);    // This line was already here
 
