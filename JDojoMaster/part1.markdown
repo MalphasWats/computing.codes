@@ -274,7 +274,7 @@ There's some more odd syntax here. the `List` type has a method called `forEach`
 
 Save everything. Compile and run. You should get a window appear with a pretty fuchsia square in the top corner:
 
-![Fuchsia Crossing - The New Class][WINDOW]
+![Fuchsia Crossing - Covid Island][WINDOW]
 
 That's it for Part 1. How could you modify the `Sprite.java` class to allow you to put the square at a different location? Can you change the colour of the square?
 
