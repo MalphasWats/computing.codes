@@ -7,7 +7,8 @@ public class JDojoMaster extends JFrame {
     static final long serialVersionUID = 0;
 
     protected Scene scene;
-    
+    protected Sprite player;
+
     public static void main(String[] args) {
 
         JDojoMaster window = new JDojoMaster();
@@ -25,5 +26,13 @@ public class JDojoMaster extends JFrame {
 
         setVisible(true);
 
+        init();
+
+    }
+
+    private void init() {
+        player = new Sprite();
+
+        scene.addSprite(player);
     }
 }

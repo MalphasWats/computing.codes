@@ -1,6 +1,6 @@
 ---
 layout: simple
-title: JDojoMaster
+title: JDojoMaster - Part 1
 ---
 
 ## Learning Objectives
@@ -127,18 +127,163 @@ public class JDojoMaster extends JFrame {
 
 Compile and run and you should see a neat little window with a title and a blank area that represents our `Scene` object. It's still quite small, because we're making a small game. Small games are something that people can make by themselves or in small groups. Big games like World of Warcraft, Fortnite or Call of Duty are not. They need large teams and massive budgets.
 
-Let's build a simple `Sprite` class, we'll start off
+Let's build a simple `Sprite` class, we'll start off with a default fuchsia rectangle for our sprites:
+
+```
+// Sprite.java
+package covid19;
+
+import java.awt.image.BufferedImage;
+import java.awt.Graphics;
+import java.awt.Color;
+
+public class Sprite {
+
+    protected BufferedImage image;
+    protected int x;
+    protected int y;
+
+    /* Default constructor */
+    public Sprite() {
+        x = 0;
+        y = 0;
+
+        image = new BufferedImage(32, 32, BufferedImage.TYPE_INT_RGB);
+        Graphics g = image.getGraphics();
+
+        g.setColor(new Color(255, 0, 255));
+        g.fillRect(0, 0, 32, 32);
+    }
+}
+```
+
+Simple class here with a constructor that makes a new BufferedImage, grabs its `Graphics` context and draw a 32px x 32px rectangle in it.
+
+Let's extend that slightly to enable it to draw itself onto any `Graphics` context (we want to be able to draw it onto the `Scene` later). Add a new method to the `Sprite` class:
+
+```
+// Sprite.java << you don't need to put this in,
+// ^^^ it's just to help make it clear which files we're working with
+
+    public void draw(Graphics g) {
+        g.drawImage(image, x, y, null);
+    }
+```
+
+Nice.
+
+Next we want to create a simple Sprite as part of our main `JDojoMaster` class. The player is a special sprite that we probably want to be able to keep track of, so first off, create a property at the top of the class:
+
+```
+// JDojoMaster.java
+
+protected Sprite player;
+```
+
+Let's keep our *game* stuff a bit separate. Create a new `init()` method in `JDojoMaster`:
+
+```
+// JDojoMaster.java
+
+private void init() {
+    player = new Sprite();
+
+}
+```
+
+and be sure to add a call to it once we've finished setting up the window:
+
+```
+// JDojomaster.java
+
+public JDojoMaster() {
+
+    setTitle("JDojoMaster");
+    setResizable(false);
+    setDefaultCloseOperation(EXIT_ON_CLOSE);
+
+    scene = new Scene();
+    add(scene);
+    pack();
+
+    setVisible(true);
+
+    init();      // Only this line is new. Don't add a whole new constructor!!
+
+}
+```
+
+Our `Scene` object is where we track and draw sprites (and other stuff). Let's add some code to keep a list of Sprites and draw them:
+
+```
+// Scene.java
+
+import java.util.List;                  // add these at the top
+import java.util.ArrayList;
+
+public class Scene extends JPanel {     // this is already here
+
+	// width and height are declared here
+
+	private List<Sprite> sprites = new ArrayList<Sprite>(); // this is new
+```
+
+`List`s and `ArrayList`s in java are handy datastructures that allow us to easily add and remove objects without having to keep track of empty slots in a regular array and all that jazz. They use a funny syntax where the `<Sprite>` part is telling Java what type the list is going to store.
+
+Now add a new method to add a sprite to the list:
+
+```
+// Scene.java
+
+public void addSprite(Sprite s) {
+    sprites.add(s);
+}
+```
+
+Next we need to add some code to `JDojoMaster` to add the sprite to the scene:
+
+```
+// JDojoMaster.java
+
+private void init() {
+    player = new Sprite();
+
+    scene.addSprite(player);
+}
+
+```
+
+*Finally*, let's add some code to draw each sprite. We can do this as part of `Scene`'s repaint method:
+
+```
+// Scene.java
+
+@Override
+protected void paintComponent(Graphics g) {
+    super.paintComponent(g);
+
+    sprites.forEach((s) -> s.draw(g));
+}
+```
+
+don't forget to add `import java.awt.Graphics;` up at the top too ;)
+
+There's some more odd syntax here. the `List` type has a method called `forEach`. That's easy enough to understand. But then we've got the whole `(s)->s.draw(g)` part!? This is called a [Lambda Expression][LAMBDA], and here's a [Stack Overflow answer][SO] about what they do. Clear? Good. Moving on...
+
+(You'll never be asked to work with these as part of any coursework or exam, just treat them as magic and move on for now. Basically, it's looking at each of the objects stored in the list and calling a method for it. In our case, it calls the `draw()` method we wrote for our `Sprite` class earlier, passing in the `Graphics` context of the *JPanel* that is Scene. Cool).
+
+Save everything. Compile and run. You should get a window appear with a pretty fuchsia square in the top corner:
+
+![Fuchsia Crossing - The New Class][WINDOW]
+
+That's it for Part 1. How could you modify the `Sprite.java` class to allow you to put the square at a different location? Can you change the colour of the square?
+
+Try it, and tune in to part 2 soon!
 
 
-
-Purple [rectangles aren't very interesting][THOMAS], let's make a sprite. Our sprites are going to be 32pixels x 32pixels. You need to make a little fighting person. Here's one I made:
-
-<img src="src/sprite.png" alt="Karate Dude">
-
-You can use this one if you like, or create your own. [Piskel App][PISKEL] is a great online pixel editor. Be sure to export it as a `.png` file when you're done making your character. Export controls are over in the little menu bar on the right, look for the button with the little mountains on it.
-
-Alright,
 
 [ECLIPSE]: https://www.eclipse.org/downloads/
 [THOMAS]: https://store.steampowered.com/app/220780/Thomas_Was_Alone/
-[PISKEL]: https://www.piskelapp.com/
+[LAMBDA]: https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html
+[SO]: https://stackoverflow.com/questions/15146052/what-does-the-arrow-operator-do-in-java
+[WINDOW]: flavour/window.png

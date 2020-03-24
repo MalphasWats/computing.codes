@@ -21,4 +21,8 @@ public class Sprite {
         g.setColor(new Color(255, 0, 255));
         g.fillRect(0, 0, 32, 32);
     }
+
+    public void draw(Graphics g) {
+		g.drawImage(image, x, y, null);
+	}
 }
