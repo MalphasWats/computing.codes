@@ -4,8 +4,6 @@ import java.awt.image.BufferedImage;
 import java.awt.Graphics;
 import java.awt.Color;
 
-import javax.imageio.ImageIO;
-
 public class Sprite {
 
     protected BufferedImage image;
@@ -22,16 +20,6 @@ public class Sprite {
 
         g.setColor(new Color(255, 0, 255));
         g.fillRect(0, 0, 32, 32);
-    }
-
-    public Sprite(String image_file) {
-        this();
-        try {
-            image = ImageIO.read(getClass().getResource(image_file));
-        }
-        catch (Exception e) {
-            // Do nothing
-        }
     }
 
     public void draw(Graphics g) {

@@ -17,7 +17,7 @@ public class JDojoMaster extends JFrame {
     public JDojoMaster() {
 
         setTitle("JDojoMaster");
-        //setResizable(false);
+        setResizable(false);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
         scene = new Scene();
@@ -27,13 +27,12 @@ public class JDojoMaster extends JFrame {
         setVisible(true);
 
         init();
+
     }
 
     private void init() {
-        player = new Sprite("/sprite.png");
+        player = new Sprite();
 
         scene.addSprite(player);
-
-        scene.repaint();
     }
 }
