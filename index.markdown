@@ -48,12 +48,3 @@ title: computing.codes
 </li>
 
 </ul>
-
-        <!--<nav>
-            <a href="{{site.baseurl}}/year-7.html"> Year 7 </a>
-            <a href="{{site.baseurl}}/year-8.html"> Year 8 </a>
-            <a href="{{site.baseurl}}/year-9.html"> Year 9 </a>
-            <a href="{{site.baseurl}}/year-10.html"> Year 10 </a>
-			<a href="{{site.baseurl}}/year-11.html"> Year 11 </a>
-            <a href="{{site.baseurl}}/projects.html"> Projects </a>
-        </nav>-->
