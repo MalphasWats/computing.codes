@@ -3,6 +3,21 @@ layout: projects
 title: Projects
 ---
 
+## Java
+
+<ul class="projects">
+
+<li>
+	<img src="JDojoMaster/flavour/sprite.png" alt="JDojoMaster">
+	<h3>JDojoMaster</h3>
+	<p>Make a simple Java game framework.</p>
+	<a href="JDojoMaster/">
+		Go
+	</a>
+</li>
+
+</ul>
+
 ## Microbit
 
 <ul class="projects">
