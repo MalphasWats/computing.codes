@@ -1,0 +1,59 @@
+---
+layout: projects
+title: computing.codes
+---
+
+## Java
+
+<ul class="projects">
+
+<li>
+	<img src="JDojoMaster/flavour/sprite.png" alt="JDojoMaster">
+	<h3>JDojoMaster</h3>
+	<p>Make a simple Java game framework.</p>
+	<a href="JDojoMaster/">
+		Go
+	</a>
+</li>
+
+</ul>
+
+## Microbit
+
+<ul class="projects">
+
+<li>
+	<img src="BitRacer/flavour.png" alt="BitRacer">
+	<h3>Bit:Racer</h3>
+	<p>Make a simple Micro:Bit game.</p>
+	<a href="BitRacer/">
+		Go
+	</a>
+</li>
+
+</ul>
+
+
+## Scratch
+
+<ul class="projects">
+
+<li>
+	<img src="ScratchRacing/flavour.png" alt="Scratch Racing">
+	<h3>Scratch Racing</h3>
+	<p>Program a top-down racing game in Scratch.</p>
+	<a href="ScratchRacing/">
+		Go
+	</a>
+</li>
+
+</ul>
+
+        <!--<nav>
+            <a href="{{site.baseurl}}/year-7.html"> Year 7 </a>
+            <a href="{{site.baseurl}}/year-8.html"> Year 8 </a>
+            <a href="{{site.baseurl}}/year-9.html"> Year 9 </a>
+            <a href="{{site.baseurl}}/year-10.html"> Year 10 </a>
+			<a href="{{site.baseurl}}/year-11.html"> Year 11 </a>
+            <a href="{{site.baseurl}}/projects.html"> Projects </a>
+        </nav>-->
