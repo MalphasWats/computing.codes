@@ -8,7 +8,6 @@ public class JDojoMaster extends JFrame {
 
     protected Scene scene;
     protected Sprite player;
-    protected Spritesheet spritesheet;
 
     public static void main(String[] args) {
 
@@ -31,11 +30,7 @@ public class JDojoMaster extends JFrame {
     }
 
     private void init() {
-
-
-        spritesheet = new Spritesheet("/spritesheet.png", 32);
-
-        player = new Sprite(spritesheet.getTile(0));
+        player = new Sprite("/sprite.png");
 
         scene.addSprite(player);
 

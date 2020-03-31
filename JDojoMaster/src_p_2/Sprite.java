@@ -34,11 +34,6 @@ public class Sprite {
         }
     }
 
-    public Sprite(BufferedImage img) {
-        this();
-        image = img;
-    }
-
     public void draw(Graphics g) {
 		g.drawImage(image, x, y, null);
 	}
