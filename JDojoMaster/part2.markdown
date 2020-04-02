@@ -14,9 +14,9 @@ Previously we made a basic framework that we can use to make a simple game. It's
 
 If you got a bit lost anywhere along the way, you can download my files here:
 
-- [JDojoMaster.java][src_p_1/JDojoMaster.java]
-- [Scene.java][src_p_1/Scene.java]
-- [Sprite.java][src_p_1/Sprite.java]
+- [JDojoMaster.java](src_p_1/JDojoMaster.java)
+- [Scene.java](src_p_1/Scene.java)
+- [Sprite.java](src_p_1/Sprite.java)
 
 Feel free to download these and use them to get going again.
 

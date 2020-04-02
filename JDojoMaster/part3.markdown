@@ -16,9 +16,9 @@ Then we changed our `Sprite` class to load and draw an image instead of a pink r
 
 If you got a bit lost anywhere along the way, you can download my files here:
 
-- [JDojoMaster.java][src_p_2/JDojoMaster.java]
-- [Scene.java][src_p_2/Scene.java]
-- [Sprite.java][src_p_2/Sprite.java]
+- [JDojoMaster.java](src_p_2/JDojoMaster.java)
+- [Scene.java](src_p_2/Scene.java)
+- [Sprite.java](src_p_2/Sprite.java)
 
 Feel free to download these and use them to get going again.
 

@@ -12,10 +12,10 @@ title: JDojoMaster - Part 4
 
 If you got a bit lost anywhere along the way, you can download my files for part 3 here:
 
-- [JDojoMaster.java][src_p_3/JDojoMaster.java]
-- [Scene.java][src_p_3/Scene.java]
-- [Sprite.java][src_p_3/Sprite.java]
-- [Spritesheet.java][src_p_3/Spritesheet.java]
+- [JDojoMaster.java](src_p_3/JDojoMaster.java)
+- [Scene.java](src_p_3/Scene.java)
+- [Sprite.java](src_p_3/Sprite.java)
+- [Spritesheet.java](src_p_3/Spritesheet.java)
 
 Feel free to download these and use them to get going again.
 
