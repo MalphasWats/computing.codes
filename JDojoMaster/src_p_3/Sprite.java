@@ -39,10 +39,6 @@ public class Sprite {
         image = img;
     }
 
-    public void setImage(BufferedImage img) {
-        image = img;
-    }
-
     public void draw(Graphics g) {
 		g.drawImage(image, x, y, null);
 	}
