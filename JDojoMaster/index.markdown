@@ -41,4 +41,13 @@ title: JDojoMaster
 	</a>
 </li>
 
+<li>
+	<img src="flavour/sprite.png" alt="Part 5">
+	<h3>Part 5</h3>
+	<p>Create a Java framework for a simple game.</p>
+	<a href="part5.html">
+		Go
+	</a>
+</li>
+
 </ul>

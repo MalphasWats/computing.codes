@@ -31,6 +31,26 @@ public class Scene extends JPanel {
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
 
+        g.drawRect(this.width/2, this.height/2, 1, 1);
+
+        g.drawRect(this.width/2-16, this.height/2-16, 32, 32);
+
+        g.drawRect(this.width/2-(16+1*32), this.height/2-16, 32, 32); // This is the new line
+        g.drawRect(this.width/2-(16+2*32), this.height/2-16, 32, 32); // This is the new line
+        g.drawRect(this.width/2-(16+3*32), this.height/2-16, 32, 32); // This is the new line
+
+        g.drawRect(this.width/2-16, this.height/2+(16+0*32), 32, 32); // This is the new line
+        g.drawRect(this.width/2-16, this.height/2+(16+1*32), 32, 32); // This is the new line
+        g.drawRect(this.width/2-16, this.height/2+(16+2*32), 32, 32); // This is the new line
+
+        g.drawRect(this.width/2+(16+0*32), this.height/2-16, 32, 32); // This is the new line
+        g.drawRect(this.width/2+(16+1*32), this.height/2-16, 32, 32); // This is the new line
+        g.drawRect(this.width/2+(16+2*32), this.height/2-16, 32, 32); // This is the new line
+
+        g.drawRect(this.width/2-16, this.height/2-(16+1*32), 32, 32); // This is the new line
+        g.drawRect(this.width/2-16, this.height/2-(16+2*32), 32, 32); // This is the new line
+        g.drawRect(this.width/2-16, this.height/2-(16+3*32), 32, 32); // This is the new line
+
         sprites.forEach((s)->s.draw(g));
     }
 
