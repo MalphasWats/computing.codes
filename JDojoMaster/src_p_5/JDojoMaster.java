@@ -5,9 +5,6 @@ package covid19;
 
 import javax.swing.JFrame;
 
-import java.util.List;
-import java.util.ArrayList;
-
 public class JDojoMaster extends JFrame {
 
     static final long serialVersionUID = 0;
@@ -18,8 +15,6 @@ public class JDojoMaster extends JFrame {
 
     protected GameController controller;
 
-    protected List<Sprite> north_lane = new ArrayList<Sprite>();
-
     public static void main(String[] args) {
 
         JDojoMaster window = new JDojoMaster();
@@ -29,7 +24,6 @@ public class JDojoMaster extends JFrame {
 
     public void gameloop() {
 		long timer;
-        long update_timer = 80;
 		while (true) {
 			timer = System.currentTimeMillis();
 
@@ -46,22 +40,6 @@ public class JDojoMaster extends JFrame {
                 player.setImage(spritesheet.getTile(2));
             }
 
-            update_timer -= 1;
-
-            if (update_timer == 0) {
-
-                north_lane.forEach((s)->s.movePosition(0, 32));
-
-                Sprite enemy = new Sprite(spritesheet.getTile(8));
-                enemy.setPosition((256/2)-16, 16);
-                north_lane.add(enemy);
-                scene.addSprite(enemy);
-
-                update_timer = 120;
-
-            }
-
-
             scene.repaint();
 
 			timer = (1000 / 60) - (System.currentTimeMillis() - timer);
@@ -73,8 +51,6 @@ public class JDojoMaster extends JFrame {
                 catch(Exception e){}
 			}
 			//else - update & draw taking too long for 60fps
-
-
 		}
     }
 
@@ -99,8 +75,6 @@ public class JDojoMaster extends JFrame {
 
         spritesheet = new Spritesheet("/spritesheet.png", 32);
         player = new Sprite(spritesheet.getTile(0));
-
-        player.setPosition(128-16, 128-16);
 
         scene.addSprite(player);
 

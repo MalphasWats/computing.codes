@@ -46,14 +46,4 @@ public class Sprite {
     public void draw(Graphics g) {
 		g.drawImage(image, x, y, null);
 	}
-
-    public void setPosition(int x, int y) {
-        this.x = x;
-        this.y = y;
-    }
-
-    public void movePosition(int x, int y) {
-        this.x += x;
-        this.y += y;
-    }
 }
