@@ -8,8 +8,6 @@ import javax.swing.JFrame;
 import java.util.List;
 import java.util.ArrayList;
 
-import java.util.Random;
-
 public class JDojoMaster extends JFrame {
 
     static final long serialVersionUID = 0;
@@ -21,11 +19,6 @@ public class JDojoMaster extends JFrame {
     protected GameController controller;
 
     protected List<Sprite> north_lane = new ArrayList<Sprite>();
-    protected List<Sprite> east_lane = new ArrayList<Sprite>();
-    protected List<Sprite> south_lane = new ArrayList<Sprite>();
-    protected List<Sprite> west_lane = new ArrayList<Sprite>();
-
-    protected Random RNG;
 
     public static void main(String[] args) {
 
@@ -58,35 +51,10 @@ public class JDojoMaster extends JFrame {
             if (update_timer == 0) {
 
                 north_lane.forEach((s)->s.movePosition(0, 32));
-                south_lane.forEach((s)->s.movePosition(0, -32));
-                east_lane.forEach((s)->s.movePosition(-32, 0));
-                west_lane.forEach((s)->s.movePosition(32, 0));
 
-                int lane = RNG.nextInt(4);
-                Sprite enemy;
-
-                if (lane == 0) {
-                    enemy = new Sprite(spritesheet.getTile(8));
-                    enemy.setPosition((256/2)-16, 16);
-                    north_lane.add(enemy);
-                }
-                else if (lane == 1) {
-                    enemy = new Sprite(spritesheet.getTile(11));
-                    enemy.setPosition((256/2)+80, (256/2)-16);
-                    east_lane.add(enemy);
-                }
-                else if (lane == 2) {
-                    enemy = new Sprite(spritesheet.getTile(9));
-                    enemy.setPosition((256/2)-16, (256/2)+80);
-                    south_lane.add(enemy);
-                }
-                else {
-                    enemy = new Sprite(spritesheet.getTile(10));
-                    enemy.setPosition((256/2)-112, (256/2)-16);
-                    west_lane.add(enemy);
-                }
-
-
+                Sprite enemy = new Sprite(spritesheet.getTile(8));
+                enemy.setPosition((256/2)-16, 16);
+                north_lane.add(enemy);
                 scene.addSprite(enemy);
 
                 update_timer = 120;
@@ -128,8 +96,6 @@ public class JDojoMaster extends JFrame {
     private void init() {
         controller = new GameController();
         addKeyListener(controller);
-
-        RNG = new Random();
 
         spritesheet = new Spritesheet("/spritesheet.png", 32);
         player = new Sprite(spritesheet.getTile(0));
