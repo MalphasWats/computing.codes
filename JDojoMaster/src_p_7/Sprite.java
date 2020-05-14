@@ -56,12 +56,4 @@ public class Sprite {
         this.x += x;
         this.y += y;
     }
-
-    public int getX() {
-        return this.x;
-    }
-
-    public int getY() {
-        return this.y;
-    }
 }

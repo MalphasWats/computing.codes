@@ -58,8 +58,4 @@ public class Scene extends JPanel {
         sprites.add(s);
     }
 
-    public void removeSprite(Sprite s) {
-        sprites.remove(s);
-    }
-
 }

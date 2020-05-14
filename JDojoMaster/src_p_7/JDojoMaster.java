@@ -37,74 +37,20 @@ public class JDojoMaster extends JFrame {
     public void gameloop() {
 		long timer;
         long update_timer = 80;
-
-        char facing = 's';
-
 		while (true) {
 			timer = System.currentTimeMillis();
 
             if (controller.up) {
                 player.setImage(spritesheet.getTile(1));
-                facing='n';
             }
             if (controller.down) {
                 player.setImage(spritesheet.getTile(0));
-                facing='s';
             }
             if (controller.left) {
                 player.setImage(spritesheet.getTile(3));
-                facing='w';
             }
             if (controller.right) {
                 player.setImage(spritesheet.getTile(2));
-                facing='e';
-            }
-            if (controller.action_1) {
-
-                // Check each lane.
-                for(int i=0 ; i<north_lane.size() ; i++) {
-                    int y;
-                    Sprite s = north_lane.get(i);
-                    y = s.getY();
-                    if (y >= player.getY()-32 && facing == 'n')
-                    {
-                        north_lane.remove(s);
-                        scene.removeSprite(s);
-                    }
-                }
-
-                for(int i=0 ; i<east_lane.size() ; i++) {
-                    int x;
-                    Sprite s = east_lane.get(i);
-                    x = s.getX();
-                    if (x <= player.getX()+32 && facing == 'e')
-                    {
-                        east_lane.remove(s);
-                        scene.removeSprite(s);
-                    }
-                }
-
-                for(int i=0 ; i<south_lane.size() ; i++) {
-                    int y;
-                    Sprite s = south_lane.get(i);
-                    y = s.getY();
-                    if (y <= player.getY()+32 && facing == 's')
-                    {
-                        south_lane.remove(s);
-                        scene.removeSprite(s);
-                    }
-                }
-
-                for(int i=0 ; i<west_lane.size() ; i++) {
-                    int x;
-                    Sprite s = west_lane.get(i);
-                    x = s.getX();
-                    if (x >= player.getX()-32 && facing == 'w')
-                    {
-                        west_lane.remove(s);
-                        scene.removeSprite(s);
-                    }
-                }
             }
 
             update_timer -= 1;
