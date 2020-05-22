@@ -60,7 +60,7 @@ title: JDojoMaster
 </li>
 
 <li>
-	<img src="flavour/sprite1.png" alt="Part 7">
+	<img src="flavour/sprite2.png" alt="Part 7">
 	<h3>Part 7</h3>
 	<p>Create a Java framework for a simple game.</p>
 	<a href="part7.html">
@@ -73,6 +73,15 @@ title: JDojoMaster
 	<h3>Part 8</h3>
 	<p>Create a Java framework for a simple game.</p>
 	<a href="part8.html">
+		Go
+	</a>
+</li>
+
+<li>
+	<img src="flavour/sprite3.png" alt="Part 9">
+	<h3>Part 9</h3>
+	<p>Create a Java framework for a simple game.</p>
+	<a href="part9.html">
 		Go
 	</a>
 </li>

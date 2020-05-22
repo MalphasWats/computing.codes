@@ -40,11 +40,7 @@ public class JDojoMaster extends JFrame {
 
         char facing = 's';
 
-        boolean gameOver = false;
-
-        int delayTime = 120;
-
-		while (!gameOver) {
+		while (true) {
 			timer = System.currentTimeMillis();
 
             if (controller.up) {
@@ -115,44 +111,10 @@ public class JDojoMaster extends JFrame {
 
             if (update_timer == 0) {
 
-                Sprite spr;
-
-                for(int i=0 ; i<north_lane.size() ; i++) {
-                    spr = north_lane.get(i);
-                    spr.movePosition(0, 32);
-
-                    int y = spr.getY();
-                    if (y == player.getY()) {
-                        gameOver = true;
-                    }
-                }
-                for(int i=0 ; i<south_lane.size() ; i++) {
-                    spr = south_lane.get(i);
-                    spr.movePosition(0, -32);
-
-                    int y = spr.getY();
-                    if (y == player.getY()) {
-                        gameOver = true;
-                    }
-                }
-                for(int i=0 ; i<east_lane.size() ; i++) {
-                    spr = east_lane.get(i);
-                    spr.movePosition(-32, 0);
-
-                    int x = spr.getX();
-                    if (x == player.getX()) {
-                        gameOver = true;
-                    }
-                }
-                for(int i=0 ; i<west_lane.size() ; i++) {
-                    spr = west_lane.get(i);
-                    spr.movePosition(32, 0);
-
-                    int x = spr.getX();
-                    if (x == player.getX()) {
-                        gameOver = true;
-                    }
-                }
+                north_lane.forEach((s)->s.movePosition(0, 32));
+                south_lane.forEach((s)->s.movePosition(0, -32));
+                east_lane.forEach((s)->s.movePosition(-32, 0));
+                west_lane.forEach((s)->s.movePosition(32, 0));
 
                 int lane = RNG.nextInt(4);
                 Sprite enemy;
@@ -181,12 +143,7 @@ public class JDojoMaster extends JFrame {
 
                 scene.addSprite(enemy);
 
-                delayTime -= 2;
-                if (delayTime < 20) {
-                    delayTime = 20;
-                }
-
-                update_timer = delayTime;
+                update_timer = 120;
 
             }
 
