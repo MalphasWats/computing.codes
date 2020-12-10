@@ -1,0 +1,73 @@
+/* Quint Styles */
+
+div#quint_container
+{
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	
+	height:290px;
+	width:100%;
+	
+	opacity:0.6;
+}
+
+div#quint_dpad
+{
+	width:280px;
+	
+	float:left;
+	overflow:auto;
+}
+
+div#quint_dpad div, div#quint_bpad div
+{
+	display:inline-block;
+	height:90px; width:90px;
+	border:2px solid white;
+	border-radius: 45px;
+	
+	text-align: center;
+	vertical-align: middle;
+	
+	background-color:#666;
+}
+
+div#quint_dpad_up
+{
+	margin-left:80px;
+	margin-right:80px;
+}
+
+div#quint_dpad_left
+{
+	
+}
+
+div#quint_dpad_right
+{
+	margin-left:70px;
+}
+
+div#quint_dpad_down
+{
+	margin-left:80px;
+}
+
+
+div#quint_bpad
+{
+	width:280px;
+	
+	float:right;
+	overflow:auto;
+	
+	text-align: right;
+	
+	padding-top:80px;
+}
+
+div#quint_bpad div
+{
+	margin:4px;
+}
