@@ -16,6 +16,8 @@ title: computing.codes
 	</a>
 </li>
 
+<li> <a href="Preliminary_Files.zip"> Preliminary_Files </a></li>
+
 </ul>
 
 ## Microbit
