@@ -1,0 +1,51 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <script>
+        var game_scale = 2
+        var world_width = 64
+        var world_height = 64
+        
+        var scientist, tilemap
+        
+        var depth = 0
+        
+    </script>
+    <script src="js/jaws/jaws.js"></script>
+    <script src="js/jaws/src/extras/tile_map_pathfinding.js"></script>
+    <script src="js/howler/howler.js"></script>
+    <script src="js/Quint/quint.js"></script>
+    <script src="js/classes/Mob.js"></script>
+    <script src="js/classes/Player.js"></script>
+    <script src="js/classes/Monster.js"></script>
+    <script src="js/states/Lab.js"></script>
+    <script src="js/states/PortalWorld.js"></script>
+    <script src="js/states/Dead.js"></script>
+    
+    <link type="text/css" rel="stylesheet" href="style/style.css">
+    <link type="text/css" rel="stylesheet" href="style/quint.css">
+    <title>LD30</title>
+  </head>
+<body>
+
+	<h1>A Brief Excursion - Ludum Dare 30</h1>
+<p style="float:right"><a href="http://www.ludumdare.com/compo/ludum-dare-30/?action=preview&uid=19859" style="color:white">Vote here</a></p>
+	<canvas width="512" height="512" id="game"></canvas>
+	<div id="hud">HP: <span id="hp">???</span> <span id="fps_box"><span id="fps"></span> fps.</span></div>
+	
+	<h2>Instructions</h2>
+	<p id="instructions">WASD to move. SPACE to hit stuff.</p>
+	
+	
+  
+ 	<script>
+    jaws.onload = function()
+	{
+		jaws.unpack()
+		jaws.assets.add(["graphics/scientist.png", "graphics/portal.png", "graphics/laboratory.png", "graphics/portal_world.png", "graphics/monsters.png", "graphics/items.png"])
+		jaws.start(Lab)
+    }
+	</script>
+
+</body>
+</html>
