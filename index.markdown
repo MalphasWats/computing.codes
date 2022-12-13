@@ -3,6 +3,21 @@ layout: projects
 title: computing.codes
 ---
 
+## Python
+
+<ul class="projects">
+
+<li>
+	<img src="pythagotchi/resources/egg.gif" alt="Pythagotchi">
+	<h3>Pythagotchi</h3>
+	<p>Make a simple Python GUI App.</p>
+	<a href="pythagotchi/">
+		Go
+	</a>
+</li>
+
+</ul>
+
 ## Java
 
 <ul class="projects">
@@ -15,8 +30,6 @@ title: computing.codes
 		Go
 	</a>
 </li>
-
-<li> <a href="Preliminary-Files.zip"> Preliminary Files </a></li>
 
 </ul>
 

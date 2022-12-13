@@ -5,3 +5,5 @@ old_stuff/*
 year-8-test.html
 *.class
 */bin/*
+.replit
+replit.nix
