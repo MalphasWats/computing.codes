@@ -8,6 +8,15 @@ title: computing.codes
 <ul class="projects">
 
 <li>
+	<img src="BattleTanks/flavour.png" alt="BattleTanks">
+	<h3>Battle Tanks</h3>
+	<p>Resources for the Battle Tanks project.</p>
+	<a href="BattleTanks/">
+		Go
+	</a>
+</li>
+
+<li>
 	<img src="pythagotchi/resources/egg.gif" alt="Pythagotchi">
 	<h3>Pythagotchi</h3>
 	<p>Make a simple Python GUI App.</p>
