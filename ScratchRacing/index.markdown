@@ -13,13 +13,9 @@ title: Scratch Racing
 
 We'll be using Scratch 2 for this project. The easiest way to access Scratch 2 is to use the web-version:
 
- <a href="https://scratch.mit.edu/projects/editor/?tip_bar=home" target="_blank">Scratch 2 Web App</a>
+ <a href="https://scratch.mit.edu/projects/editor/" target="_blank">Scratch 2 Web App</a>
 
-Once the page has loaded, we'll want to make a bit of room. Click the close button to hide the "Tutorials" pane:
-
-![Hide Tips Panel](resources/01-hide-tips-panel.png)
-
-Next, click on scratch the cat down in the sprites pane and delete the sprite - we'll be creating our own!
+Once the page has loaded, click on scratch the cat down in the sprites pane and delete the sprite - we'll be creating our own!
 
 ![Delete Scratch the Cat](resources/02-delete-scratch-sprite.png)
 
