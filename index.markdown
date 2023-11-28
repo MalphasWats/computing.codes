@@ -72,3 +72,18 @@ title: computing.codes
 </li>
 
 </ul>
+
+## HTML
+
+<ul class="projects">
+
+<li>
+	<img src="images/default_flavour.png" alt="HTML">
+	<h3>Developing Websites</h3>
+	<p>Create a very simple web page template using HTML and CSS.</p>
+	<a href="Developing Websites.pdf">
+		Go
+	</a>
+</li>
+
+</ul>
